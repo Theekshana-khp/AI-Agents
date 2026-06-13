@@ -1,0 +1,117 @@
+CONTACT
+SOFT SKILLS
+PROFILE
+0771187558
+Phone:
+pasindutheekshana903@gmail.com
+Email Address:
+N0. 91/1 ,
+MahaAmbalangoda,
+Ambalangoda
+Address:
+TECH SKILLS
+Teamwork
+Time Management
+Leadership
+Effective Communication
+Critical Thinking
+PASINDU THEEKSHANA
+COMPUTER SCIENCE UNDERGRADUATE
+EDUCATION
+Software Engineering undergraduate with strong experience in full-stack
+web development and backend system design using Java, Spring Boot,
+React , Node Js, and RESTful APIs. Skilled in building scalable, secure, and
+maintainable applications with hands-on exposure to microservices
+architecture, authentication systems and database design. Familiar with
+distributed systems concepts, API development, and cloud-ready
+application structures. Passionate about problem-solving, competitive
+programming, and applying software engineering principles to real-world
+projects. Actively improving skills in system design, DevOps fundamentals,
+and modern backend technologies.
+2024 Present Bachelor of Computer Science 
+University of colombo School of Computing
+Java /Spring Boot (Expert)
+JavaFX 
+Node Js/ Express Js  (Expert) 
+Python (Intermediate)
+AI Automation 
+Docker
+Kafka
+Kubernetes
+C++ (Expert)
+React / Angular
+Data Structures
+Algorithms
+SQL, MySQL
+Web Development
+Image Editing
+PROJECTS
+Clothify Store – JavaFX Desktop Application
+ Developed a desktop-based retail management system using
+JavaFX and FXML with a layered architecture (Presentation,
+Business, DAO, and Database layers). Implemented key design
+patterns including MVC, Factory, Singleton, and DAO to ensure
+scalability, maintainability, and clean separation of concerns. The
+system supports customer, product, inventory, employee, and order
+management with JDBC-based MySQL/PostgreSQL integration and
+secure data handling. Built using Java 17, Maven, and OOP best
+practices.
+iCET Certified DeveloperDiploma in Software
+Engineering
+iCET - Institute of Computer Engineering Technology
+Studied NVQ Level 4 in Computer Hardware Technician
+Technical College - Balapitiya
+Advance Level Examination 2022 (2A 1B) | Z-score - 1.8
+Kularathna College - Ambalangoda
+Ordernary Level Examination 2018  (8A 1B)
+LANGUAGES
+English (Fluent)
+Sinhala(Fluent)
+Technologies Used: Java 17, JavaFX, FXML, Scene Builder, Maven, JDBC,
+MySQL/PostgreSQL, OOP Principles, Design Patterns
+(MVC, DAO, Factory, Singleton, Observer)
+Real-time Chat Application
+Piyawara Platform – Real-time Live Chat Application
+Developed a web-based real-time chat application using Node.js,
+HTML, and CSS, enabling instant messaging between users with a
+responsive and user-friendly interface. Designed for fast
+communication with a lightweight architecture suitable for web
+deployment.
+Technologies Used:  Node.js, Css ,Js ,html
+Piyawara Domestic Seller Market Place
+Second year Group Project (Grade A)
+Built a full-stack e-commerce and services marketplace to empower
+local Sri Lankan sellers, combining products, services, rentals, and
+real-time auctions into a unified platform. Developed a custom
+Node.js backend (without frameworks) using Controller–Service
+Model architecture, with MySQL (connection pooling, optimized
+queries) and JWT-based authentication with role-based access
+control. Implemented WebSocket-based real-time auction system,
+notifications, and dynamic frontend using Vanilla JavaScript, HTML,
+and CSS for a lightweight, responsive user experience.
+Technologies Used: Node.js, Vanilla JavaScript, HTML, CSS, MySQL,
+WebSocket, JWT Authentication, Redis
+(planned), Nodemailer, Busboy, HTTP (custom
+server), MVC Architecture
+Cloud-Native Banking Platform (Microservices Architecture)
+Designed and developed a scalable banking system using a
+microservices architecture with Spring Boot and React, focused on
+high availability, security, and distributed system design. The system
+is orchestrated using Docker and Kubernetes for containerization and
+deployment, with service discovery via Eureka and centralized
+routing through an API Gateway.
+Implemented secure authentication and authorization using
+Keycloak (OAuth2/OIDC) with role-based access control. Enabled
+real-time event-driven communication between services using
+Apache Kafka for transaction processing and system events. Built a
+responsive web client using React, integrated with backend
+microservices via REST APIs.
+The architecture emphasizes fault tolerance, scalability, and
+modularity, simulating real-world fintech-grade distributed banking
+systems.
+Technologies Used: Java, Spring Boot, React, Spring Cloud (Eureka,
+API Gateway), Microservices Architecture,
+Docker, Kubernetes, Apache Kafka, Keycloak
+(OAuth2/OIDC), REST APIs, MySQL/PostgreSQL,
+Maven, JWT, WebClient (or Axios), Distributed
+Systems Concepts
