@@ -1,0 +1,71 @@
+find_trending_companies:
+  description: >
+    Identify 3–5 companies that are currently trending in the {sector} sector based on the latest news, market reports, and public discussions.
+
+    - Use only recent information (news, earnings, announcements).
+    - Avoid repeating companies that appeared in previous runs.
+    - Prefer companies with strong recent activity (price movement, acquisitions, news buzz).
+
+  expected_output: >
+    A JSON list of trending companies with a short reason for each selection.
+
+    Example:
+    [
+      {
+        "company": "JKH",
+        "reason": "Strong earnings growth and positive market news"
+      }
+    ]
+
+  agent: trending_company_finder
+  output_file: output/trending_companies.json
+
+research_trending_companies:
+  description: >
+    Perform deep financial research on each company provided.
+
+    For each company:
+    - Business model
+    - Recent news impact
+    - Financial performance
+    - Growth potential
+    - Risks
+
+    Compare companies where possible.
+
+  expected_output: >
+    A structured research report in JSON format containing detailed analysis for each company.
+
+  agent: financial_researcher
+
+  context:
+    - find_trending_companies
+
+  output_file: output/research_report.json
+
+pick_best_company:
+  description: >
+    Analyze the research report and select the best company for investment.
+
+    Requirements:
+    - Compare all companies fairly
+    - Consider risk vs reward
+    - Explain clearly why the winner is chosen
+    - Explain why others were rejected
+
+    After selection:
+    - Notify the user with the chosen company and a 1-sentence reason
+    - Then produce a full investment rationale report
+
+  expected_output: >
+    A final decision report including:
+    - Selected company
+    - Reason for selection
+    - Rejected companies with explanations
+
+  agent: stock_picker
+
+  context:
+    - research_trending_companies
+
+  output_file: output/decision.md
