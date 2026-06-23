@@ -4,6 +4,7 @@
     <option name="sourcePathsSet">
       <set>
         <option value="$PROJECT_DIR$/developer_agent_crewai/src" />
+        <option value="$PROJECT_DIR$/coder/src" />
       </set>
     </option>
   </component>
