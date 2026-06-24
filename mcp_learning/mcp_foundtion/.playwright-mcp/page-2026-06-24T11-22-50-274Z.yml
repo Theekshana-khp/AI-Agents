@@ -1,0 +1,381 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "Cover and edge design of Sally's Baking 101 Cookbook" [ref=e7] [cursor=pointer]:
+        - /url: =https://sallysbakingaddiction.com/sallys-baking-101/
+        - img "Cover and edge design of Sally's Baking 101 Cookbook" [ref=e8]
+      - generic [ref=e10]:
+        - generic [ref=e11]: Sally's Baking 101 Cookbook
+        - link "Order Today!" [ref=e12] [cursor=pointer]:
+          - /url: https://sallysbakingaddiction.com/sallys-baking-101/
+          - generic [ref=e13]: Order Today!
+    - generic [ref=e15]:
+      - link "Sally's Baking Home" [ref=e17] [cursor=pointer]:
+        - /url: https://sallysbakingaddiction.com/
+        - text: Sally's Baking
+      - generic [ref=e18]:
+        - button "search-toggle" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - button "menu" [ref=e22] [cursor=pointer]:
+          - img [ref=e23]
+    - search [ref=e25]:
+      - generic [ref=e26]: Search
+      - generic [ref=e27]:
+        - searchbox "Search" [ref=e28]
+        - button "Search" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+  - generic [ref=e32]:
+    - button "Close menu" [ref=e33] [cursor=pointer]
+    - generic [ref=e34]:
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "All Recipes" [ref=e37] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/recipe-index/
+            - generic [ref=e38]:
+              - img [ref=e39]
+              - generic [ref=e41]: All Recipes
+        - listitem [ref=e42]:
+          - link "Baking Tips" [ref=e43] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/category/baking-tips/
+            - generic [ref=e44]:
+              - img [ref=e45]
+              - generic [ref=e47]: Baking Tips
+        - listitem [ref=e48]:
+          - link "Browse By Ingredient" [ref=e49] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/ingredient-index/
+            - generic [ref=e50]:
+              - img [ref=e51]
+              - generic [ref=e53]: Browse By Ingredient
+        - listitem [ref=e54]:
+          - link "Community" [ref=e55] [cursor=pointer]:
+            - /url: https://sallysbaking.raptive.com/
+            - generic [ref=e56]:
+              - img [ref=e57]
+              - generic [ref=e59]: Community
+        - listitem [ref=e60]:
+          - link "Sally’s Shop" [ref=e61] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/baking-tools/
+            - generic [ref=e62]:
+              - img [ref=e63]
+              - generic [ref=e65]: Sally’s Shop
+        - listitem [ref=e66]:
+          - link "Videos" [ref=e67] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/category/video/
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - generic [ref=e71]: Videos
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Sally’s Baking Challenge" [ref=e74] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/category/sallys-baking-traditions/sallys-baking-challenge/
+        - listitem [ref=e75]:
+          - link "Type" [ref=e76] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/recipes/
+          - button "Submenu" [ref=e77]:
+            - generic [ref=e78]: Submenu
+            - img [ref=e79]
+        - listitem [ref=e81]:
+          - link "Dietary" [ref=e82] [cursor=pointer]:
+            - /url: "#"
+          - button "Submenu" [ref=e83]:
+            - generic [ref=e84]: Submenu
+            - img [ref=e85]
+        - listitem [ref=e87]:
+          - link "Occasion" [ref=e88] [cursor=pointer]:
+            - /url: "#"
+          - button "Submenu" [ref=e89]:
+            - generic [ref=e90]: Submenu
+            - img [ref=e91]
+        - listitem [ref=e93]:
+          - link "Season" [ref=e94] [cursor=pointer]:
+            - /url: /recipe-index/#seasons
+          - button "Submenu" [ref=e95]:
+            - generic [ref=e96]: Submenu
+            - img [ref=e97]
+        - listitem [ref=e99]:
+          - link "Skill Level" [ref=e100] [cursor=pointer]:
+            - /url: "#"
+          - button "Submenu" [ref=e101]:
+            - generic [ref=e102]: Submenu
+            - img [ref=e103]
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - link "About" [ref=e107] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/about/
+        - listitem [ref=e108]:
+          - link "Accessibility" [ref=e109] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/accessibility-statement/
+        - listitem [ref=e110]:
+          - link "Cookbook" [ref=e111] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/sallys-baking-101/
+        - listitem [ref=e112]:
+          - link "Disclosure" [ref=e113] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/disclosure-policy/
+        - listitem [ref=e114]:
+          - link "FAQs" [ref=e115] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/faq/
+        - listitem [ref=e116]:
+          - link "Privacy" [ref=e117] [cursor=pointer]:
+            - /url: https://sallysbakingaddiction.com/privacy-policy/
+      - generic [ref=e118]:
+        - link "facebook" [ref=e119] [cursor=pointer]:
+          - /url: https://www.facebook.com/sallysbakingaddiction/
+          - img [ref=e120]
+        - link "instagram" [ref=e122] [cursor=pointer]:
+          - /url: https://www.instagram.com/sallysbakeblog/
+          - img [ref=e123]
+        - link "pinterest" [ref=e125] [cursor=pointer]:
+          - /url: https://www.pinterest.com/sallysbakeblog/
+          - img [ref=e126]
+        - link "tiktok" [ref=e128] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@sallysbaking
+          - img [ref=e129]
+        - link "youtube" [ref=e131] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/SallysBakingAddictionVideo
+          - img [ref=e132]
+  - main [ref=e136]:
+    - generic [ref=e137]:
+      - heading "Nothing Found" [level=1] [ref=e140]
+      - generic [ref=e141]:
+        - paragraph [ref=e142]: The page you are looking for no longer exists. Perhaps you can return back to the homepage and see if you can find what you are looking for.
+        - generic [ref=e144]:
+          - heading "Popular Recipes" [level=2] [ref=e146]
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - article [ref=e149]:
+                - link [ref=e150] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
+                  - img [ref=e151]
+                - generic [ref=e152]:
+                  - heading "Triple Chocolate Cake (Popular Recipe!)" [level=3] [ref=e153]:
+                    - link "Triple Chocolate Cake (Popular Recipe!)" [ref=e154] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
+                  - generic [ref=e155]:
+                    - img [ref=e156]
+                    - link "4,972 Comments" [ref=e159] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/#comments
+              - article [ref=e160]:
+                - link [ref=e161] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/strawberry-cake/
+                  - img [ref=e162]
+                - generic [ref=e163]:
+                  - heading "Homemade Strawberry Cake" [level=3] [ref=e164]:
+                    - link "Homemade Strawberry Cake" [ref=e165] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/strawberry-cake/
+                  - generic [ref=e166]:
+                    - img [ref=e167]
+                    - link "2,909 Comments" [ref=e170] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/strawberry-cake/#comments
+              - article [ref=e171]:
+                - link [ref=e172] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/banana-muffins/
+                  - img [ref=e173]
+                - generic [ref=e174]:
+                  - heading "Quick & Easy Banana Muffins" [level=3] [ref=e175]:
+                    - link "Quick & Easy Banana Muffins" [ref=e176] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/banana-muffins/
+                  - generic [ref=e177]:
+                    - img [ref=e178]
+                    - link "4,072 Comments" [ref=e181] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/banana-muffins/#comments
+              - article [ref=e182]:
+                - link [ref=e183] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+                  - img [ref=e184]
+                - generic [ref=e185]:
+                  - heading "My Favorite Banana Bread Recipe" [level=3] [ref=e186]:
+                    - link "My Favorite Banana Bread Recipe" [ref=e187] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+                  - generic [ref=e188]:
+                    - img [ref=e189]
+                    - link "4,173 Comments" [ref=e192] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/#comments
+              - article [ref=e193]:
+                - link [ref=e194] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/lemon-bars-recipe/
+                  - img [ref=e195]
+                - generic [ref=e196]:
+                  - heading "Lemon Bars with Shortbread Crust" [level=3] [ref=e197]:
+                    - link "Lemon Bars with Shortbread Crust" [ref=e198] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/lemon-bars-recipe/
+                  - generic [ref=e199]:
+                    - img [ref=e200]
+                    - link "3,173 Comments" [ref=e203] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/lemon-bars-recipe/#comments
+              - article [ref=e204]:
+                - link [ref=e205] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/
+                  - img [ref=e206]
+                - generic [ref=e207]:
+                  - heading "Homemade Pizza Dough Recipe for Beginners" [level=3] [ref=e208]:
+                    - link "Homemade Pizza Dough Recipe for Beginners" [ref=e209] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/
+                  - generic [ref=e210]:
+                    - img [ref=e211]
+                    - link "2,665 Comments" [ref=e214] [cursor=pointer]:
+                      - /url: https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/#comments
+            - link "View All Recipes" [ref=e215] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/recipe-index/
+              - generic [ref=e216]: View All Recipes
+              - img [ref=e217]
+        - generic [ref=e220]:
+          - heading "Trending Topics" [level=2] [ref=e221]
+          - generic [ref=e222]:
+            - link "Breads" [ref=e224] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/bread/
+              - generic [ref=e227]: Breads
+            - link "Breakfast" [ref=e229] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/breakfast-treats/
+              - generic [ref=e232]: Breakfast
+            - link "Brownies" [ref=e234] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/brownies-bars/
+              - generic [ref=e237]: Brownies
+            - link "Cakes" [ref=e239] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/cakes/
+              - generic [ref=e242]: Cakes
+            - link "Candy" [ref=e244] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/candy/
+              - generic [ref=e247]: Candy
+            - link "Cookies" [ref=e249] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/cookies/
+              - generic [ref=e252]: Cookies
+            - link "Cupcakes" [ref=e254] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/cupcakes/
+              - generic [ref=e257]: Cupcakes
+            - link "Desserts" [ref=e259] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/
+              - generic [ref=e262]: Desserts
+            - link "Pies" [ref=e264] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/category/desserts/pies-crisps-tarts/
+              - generic [ref=e267]: Pies
+  - generic [ref=e268]:
+    - generic [ref=e270]:
+      - generic [ref=e273]: As Seen On
+      - generic [ref=e274]:
+        - img "Better Homes & Gardens" [ref=e275]
+        - img "Good Morning America" [ref=e276]
+        - img "Huffington Post" [ref=e277]
+        - img "Taste of Home" [ref=e278]
+        - img "People" [ref=e279]
+        - img "Today Show" [ref=e280]
+    - generic [ref=e284]:
+      - heading "Sign Up for My Email List" [level=2] [ref=e286]
+      - paragraph [ref=e288]: Something sweet for your inbox! Join 350K others and subscribe to my free email list. You’ll get every new recipe and baking post as they’re published, plus an email with my most popular baking tips and recipes.
+      - generic [ref=e289]:
+        - textbox "Your first name" [ref=e291]
+        - textbox "Your email address" [ref=e293]
+        - button [ref=e295]:
+          - group [ref=e296]:
+            - generic [ref=e298] [cursor=pointer]: I agree to receive emails from Sally's Baking Recipes!
+        - button "Yes, Sign Me Up" [ref=e299] [cursor=pointer]:
+          - generic [ref=e300]: Yes, Sign Me Up
+      - paragraph [ref=e302]: We respect your privacy. Unsubscribe at any time.
+    - generic [ref=e305]:
+      - heading "Sally’s Classics" [level=2] [ref=e307]
+      - generic [ref=e308]:
+        - generic [ref=e309]:
+          - article [ref=e310]:
+            - link [ref=e311] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/best-sugar-cookies/
+              - img [ref=e312]
+            - generic [ref=e313]:
+              - heading "The Best Sugar Cookies" [level=3] [ref=e314]:
+                - link "The Best Sugar Cookies" [ref=e315] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/best-sugar-cookies/
+              - generic [ref=e316]:
+                - img [ref=e317]
+                - link "2,771 Comments" [ref=e320] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/best-sugar-cookies/#comments
+          - article [ref=e321]:
+            - link [ref=e322] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/
+              - img [ref=e323]
+            - generic [ref=e324]:
+              - heading "Seriously Fudgy Homemade Brownies" [level=3] [ref=e325]:
+                - link "Seriously Fudgy Homemade Brownies" [ref=e326] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/
+              - generic [ref=e327]:
+                - img [ref=e328]
+                - link "658 Comments" [ref=e331] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/#comments
+          - article [ref=e332]:
+            - link [ref=e333] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/banana-muffins/
+              - img [ref=e334]
+            - generic [ref=e335]:
+              - heading "Quick & Easy Banana Muffins" [level=3] [ref=e336]:
+                - link "Quick & Easy Banana Muffins" [ref=e337] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/banana-muffins/
+              - generic [ref=e338]:
+                - img [ref=e339]
+                - link "4,072 Comments" [ref=e342] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/banana-muffins/#comments
+          - article [ref=e343]:
+            - link [ref=e344] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/
+              - img [ref=e345]
+            - generic [ref=e346]:
+              - heading "Chewy Chocolate Chip Cookies" [level=3] [ref=e347]:
+                - link "Chewy Chocolate Chip Cookies" [ref=e348] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/
+              - generic [ref=e349]:
+                - img [ref=e350]
+                - link "6,363 Comments" [ref=e353] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/#comments
+          - article [ref=e354]:
+            - link [ref=e355] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+              - img [ref=e356]
+            - generic [ref=e357]:
+              - heading "My Favorite Banana Bread Recipe" [level=3] [ref=e358]:
+                - link "My Favorite Banana Bread Recipe" [ref=e359] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/
+              - generic [ref=e360]:
+                - img [ref=e361]
+                - link "4,173 Comments" [ref=e364] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/best-banana-bread-recipe/#comments
+          - article [ref=e365]:
+            - link [ref=e366] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
+              - img [ref=e367]
+            - generic [ref=e368]:
+              - heading "Triple Chocolate Cake (Popular Recipe!)" [level=3] [ref=e369]:
+                - link "Triple Chocolate Cake (Popular Recipe!)" [ref=e370] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/
+              - generic [ref=e371]:
+                - img [ref=e372]
+                - link "4,972 Comments" [ref=e375] [cursor=pointer]:
+                  - /url: https://sallysbakingaddiction.com/triple-chocolate-layer-cake/#comments
+        - link "View All Recipes" [ref=e376] [cursor=pointer]:
+          - /url: https://sallysbakingaddiction.com/recipe-index/
+          - generic [ref=e377]: View All Recipes
+          - img [ref=e378]
+  - contentinfo [ref=e380]:
+    - generic [ref=e381]:
+      - link "back-to-top" [ref=e382] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e383]
+        - generic [ref=e385]: Back to top
+      - generic [ref=e386]:
+        - list [ref=e387]:
+          - listitem [ref=e388]:
+            - link "About" [ref=e389] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/about/
+          - listitem [ref=e390]:
+            - link "Accessibility" [ref=e391] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/accessibility-statement/
+          - listitem [ref=e392]:
+            - link "Disclosure" [ref=e393] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/disclosure-policy/
+          - listitem [ref=e394]:
+            - link "FAQs" [ref=e395] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/faq/
+          - listitem [ref=e396]:
+            - link "Privacy Policy" [ref=e397] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/privacy-policy/
+          - listitem [ref=e398]:
+            - link "Subscribe" [ref=e399] [cursor=pointer]:
+              - /url: https://sallysbakingaddiction.com/instant-updates/
+        - generic [ref=e400]: ©2026 Sally's Baking. All rights reserved.

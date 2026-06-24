@@ -1,0 +1,13 @@
+[   11630ms] OptanonConsent does not exist
+[   13160ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:86
+[   13166ms] [ERROR] Not signed in with the identity provider. @ https://www.delish.com/cooking/recipe-ideas/a38951978/banoffee-pie-recipe/:0
+[   13797ms] [WARNING] [GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[   13804ms] [ERROR] %cNEXT-ADMANAGER: background-color:red;color:white;padding:0.5rem; ad element misses nodeId, backfilled with nodeId 1, element=h3, element=h3 
+				element attributes="class="css-1pdvl1o e1241r8m5" data-node-id="1" 
+				window.width=780 height=493" 
+				 @ https://www.delish.com/_assets/fre/scopes/hdm/_next/static/chunks/pages/_app-193676c119061836.js:103
+[   17489ms] [WARNING] [GPT] Slot.setTargeting is deprecated, use Slot.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[   19145ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87
+[   22179ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0

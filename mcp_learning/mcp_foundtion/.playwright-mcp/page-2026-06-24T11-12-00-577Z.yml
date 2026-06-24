@@ -1,0 +1,575 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - complementary "Advertisement"
+    - complementary "Advertisement" [ref=e4]
+    - generic:
+      - complementary "Advertisement":
+        - generic [ref=e5]:
+          - img "Dismiss Ad" [ref=e7]
+          - link "Tasty Logo" [ref=e9] [cursor=pointer]:
+            - /url: https://tasty.co?origin=tb
+            - img "Tasty Logo" [ref=e10]
+    - link "Skip to Content" [ref=e15] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e16]:
+      - navigation "Primary menu" [ref=e17]:
+        - list "Primary navigation bar" [ref=e19]:
+          - listitem [ref=e20]:
+            - link "Tasty.co Home" [ref=e21] [cursor=pointer]:
+              - /url: /
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - link "Your Cart" [ref=e25] [cursor=pointer]:
+              - /url: /mycart
+              - img [ref=e26]
+            - generic [ref=e28]:
+              - paragraph [ref=e29]: The all-new Cart!
+              - generic [ref=e30]: Build a bag of Tasty recipes then choose how you want to get your groceries with Walmart.
+              - button "Got it" [ref=e31] [cursor=pointer]
+          - listitem [ref=e32]:
+            - button "Open submenu" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+    - navigation "Secondary menu" [ref=e36]:
+      - list [ref=e37]:
+        - listitem [ref=e38]:
+          - link "Weeknight Dinners" [ref=e39] [cursor=pointer]:
+            - /url: /tag/weeknight
+        - listitem [ref=e40]:
+          - link "Breakfasts to Delight" [ref=e41] [cursor=pointer]:
+            - /url: https://thomas.tasty.co/
+        - listitem [ref=e42]:
+          - link "Work Lunches" [ref=e43] [cursor=pointer]:
+            - /url: /article/jesseszewczyk/easy-make-ahead-work-lunches
+        - listitem [ref=e44]:
+          - link "5 Ingredient Meals" [ref=e45] [cursor=pointer]:
+            - /url: /article/melissaharrison/five-ingredient-dinners
+        - listitem [ref=e46]:
+          - link "Latest Recipes" [ref=e47] [cursor=pointer]:
+            - /url: /latest
+        - listitem [ref=e48]:
+          - link "Family Dinners" [ref=e49] [cursor=pointer]:
+            - /url: /article/jesseszewczyk/back-to-school-dinner-recipes
+    - main [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e53]:
+          - link "Cuisine" [ref=e54] [cursor=pointer]:
+            - /url: /tag/cuisine
+          - link "European" [ref=e55] [cursor=pointer]:
+            - /url: /tag/european
+          - link "British" [ref=e56] [cursor=pointer]:
+            - /url: /tag/british
+          - link "Food Processor" [ref=e57] [cursor=pointer]:
+            - /url: /tag/food_processor
+          - link "Dairy" [ref=e58] [cursor=pointer]:
+            - /url: /tag/dairy
+          - link "Gluten" [ref=e59] [cursor=pointer]:
+            - /url: /tag/gluten
+          - link "High-Fiber" [ref=e60] [cursor=pointer]:
+            - /url: /tag/high_fiber
+          - link "High-Protein" [ref=e61] [cursor=pointer]:
+            - /url: /tag/high_protein
+          - link "Under 1 Hour" [ref=e62] [cursor=pointer]:
+            - /url: /tag/under_1_hour
+          - link "Special Occasion" [ref=e63] [cursor=pointer]:
+            - /url: /tag/special_occasion
+          - link "No Bake Desserts" [ref=e64] [cursor=pointer]:
+            - /url: /tag/no_bake_desserts
+          - link "Indulgent Sweets" [ref=e65] [cursor=pointer]:
+            - /url: /tag/indulgent_sweets
+          - link "Date Night" [ref=e66] [cursor=pointer]:
+            - /url: /tag/date_night
+          - link "Baking" [ref=e67] [cursor=pointer]:
+            - /url: /tag/baking
+          - link "Desserts" [ref=e68] [cursor=pointer]:
+            - /url: /tag/desserts
+          - link "Comfort Food" [ref=e69] [cursor=pointer]:
+            - /url: /tag/comfort_food
+        - generic [ref=e72]:
+          - heading "Banoffee Pie" [level=1] [ref=e73]
+          - generic [ref=e75]:
+            - text: featured in
+            - link "6 Amazing Pies To Impress Your Friends" [ref=e76] [cursor=pointer]:
+              - /url: /compilation/6-amazing-pies-to-impress-your-friends
+          - paragraph [ref=e77]: This classic British dessert is a heavenly combination of crumbly pie crust, caramel, bananas, and whipped cream that is sure to have you swooning at first bite.
+          - generic [ref=e79]:
+            - generic [ref=e80]: Chris Salicrup
+            - generic [ref=e81]: Tasty Team
+          - time [ref=e83]: Updated on May 05, 2023
+          - generic [ref=e86]: 94% would make again
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - link "Share via facebook" [ref=e90] [cursor=pointer]:
+                - /url: https://www.facebook.com/dialog/share?href=https%3A%2F%2Ftasty.co%2Frecipe%2Fbanoffee-pie&app_id=1060852764021442
+                - img [ref=e91]
+                - generic [ref=e93]: Share via facebook
+            - listitem [ref=e94]:
+              - link "Share via pinterest" [ref=e95] [cursor=pointer]:
+                - /url: https://pinterest.com/pin/create/button/?url=https%3A%2F%2Ftasty.co%2Frecipe%2Fbanoffee-pie&description=Banoffee%20Pie&media=https%3A%2F%2Fimg.buzzfeed.com%2Fthumbnailer-prod-us-east-1%2Fvideo-api%2Fassets%2F212402.jpg
+                - img [ref=e96]
+                - generic [ref=e98]: Share via pinterest
+            - listitem [ref=e99]:
+              - link "Share via email" [ref=e100] [cursor=pointer]:
+                - /url: mailto:?subject=Banoffee Pie&body=https://tasty.co/recipe/banoffee-pie
+                - img [ref=e101]
+                - generic [ref=e103]: Share via email
+            - listitem [ref=e104]:
+              - link "Share via sms" [ref=e105] [cursor=pointer]:
+                - /url: sms:?&body=Banoffee Pie - https://tasty.co/recipe/banoffee-pie
+                - img [ref=e106]
+                - generic [ref=e108]: Share via sms
+            - listitem [ref=e109]:
+              - button "Print" [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]: Print
+                - img [ref=e112]
+            - listitem [ref=e114]:
+              - button "View recipe tips 184 Tips" [ref=e115] [cursor=pointer]:
+                - generic [ref=e116]: View recipe tips
+                - img [ref=e117]
+                - text: 184 Tips
+      - generic [ref=e119]:
+        - generic "Recipe preparation steps" [ref=e120]:
+          - img "Banoffee Pie" [ref=e124]
+        - complementary "Advertisement" [ref=e128]:
+          - generic [ref=e130]: Advertisement
+      - generic [ref=e133]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - heading "Total Time" [level=5] [ref=e137]
+            - paragraph [ref=e138]: 6 hr 50 min
+          - generic [ref=e139]:
+            - heading "Prep Time" [level=5] [ref=e140]
+            - paragraph [ref=e141]: 15 min
+          - generic [ref=e142]:
+            - heading "Cook Time" [level=5] [ref=e143]
+            - paragraph [ref=e144]: 1 hr 35 min
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - heading "Ingredients" [level=2] [ref=e147]
+            - paragraph [ref=e148]: for 8 servings
+            - list [ref=e150]:
+              - listitem [ref=e151]:
+                - text: 30 oz sweetened condensed milk
+                - generic [ref=e152]: (850 g)
+              - listitem [ref=e153]: 14 graham crackers
+              - listitem [ref=e154]: 6 tablespoons unsalted butter, melted
+              - listitem [ref=e155]: nonstick cooking spray
+              - listitem [ref=e156]:
+                - text: 1 ½ cups heavy cream
+                - generic [ref=e157]: (360 mL)
+              - listitem [ref=e158]: 1 tablespoon sugar
+              - listitem [ref=e159]: 3 bananas, sliced
+              - listitem [ref=e160]: chocolate shaving, for garnish
+            - generic [ref=e161]:
+              - heading "Nutrition Info" [level=2] [ref=e163]
+              - button "View Info" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: View Info
+                - img [ref=e166]
+            - generic [ref=e169]:
+              - heading "Shop Ingredients ?" [level=2] [ref=e170]:
+                - generic [ref=e171]: Shop Ingredients
+                - button "?" [ref=e172] [cursor=pointer]
+              - paragraph [ref=e173]: Build your cart with Tasty, then choose how you want to get your order from Walmart.
+              - button "Add items to My Cart" [ref=e174] [cursor=pointer]
+          - complementary "Advertisement" [ref=e178]:
+            - generic [ref=e180]: Advertisement
+          - generic [ref=e182]:
+            - heading "Preparation" [level=2] [ref=e184]
+            - list [ref=e185]:
+              - listitem [ref=e186]: Preheat the oven to 400˚F (200˚C).
+              - listitem [ref=e187]: Pour the sweetened condensed milk into a baking dish. Cover with aluminum foil and set in a larger baking dish. Fill the larger dish with hot water until it reaches halfway up the sides of the smaller dish.
+              - listitem [ref=e188]: Place in the oven and cook for 90 minutes. Check the water level occasionally, making sure that it reaches halfway and refilling as necessary.
+              - complementary "Advertisement" [ref=e192]:
+                - generic [ref=e194]: Advertisement
+              - listitem [ref=e196]: Carefully remove the baking dish from the hot water bath and let cool to room temperature. Whisk the mixture (now it’s dulce de leche!) until smooth.
+              - listitem [ref=e197]: Reduce the oven temperature to 350˚F (180˚C).
+              - listitem [ref=e198]: In the bowl of a food processor, combine the graham crackers and melted butter. Pulse until crackers are finely ground and the mixture resembles wet sand.
+              - complementary "Advertisement" [ref=e202]:
+                - generic [ref=e204]: Advertisement
+              - listitem [ref=e206]: Grease a 9-inch (22 cm) tart pan with nonstick spray. Add the graham cracker mixture to the tin and press evenly to cover pan completely.
+              - listitem [ref=e207]: Bake crust for 5 minutes, until golden and fragrant. Transfer to a wire rack and let cool to room temperature.
+              - listitem [ref=e208]: Spread the dulce de leche in the cooled tart crust, using a flexible spatula to smooth it into an even layer. Cover and refrigerate for at least 4 hours or up to overnight, until set.
+              - listitem [ref=e209]: In a large bowl, beat the heavy cream until soft peaks are just beginning to form. Add the sugar and beat until soft peaks form.
+              - listitem [ref=e210]: Remove the pie from the refrigerator. Scatter the banana slices over the dulce de leche. Top with the whipped cream, spreading evenly to cover bananas, and garnish with chocolate shavings.
+              - listitem [ref=e211]: Enjoy!
+              - listitem [ref=e212]:
+                - text: Meal planning made easy with the Tasty app.
+                - link "Download now" [ref=e213] [cursor=pointer]:
+                  - /url: https://tasty.co/download?ct=prepsteps
+                - text: to see exclusive curated meal plans.
+        - generic [ref=e216]:
+          - heading "Related Recipes" [level=2] [ref=e217]
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - link "American Cheesecake" [ref=e220] [cursor=pointer]:
+                - /url: /recipe/american-cheesecake
+                - generic [ref=e225]: American Cheesecake
+            - listitem [ref=e226]:
+              - link "Gingerbread Cheesecake" [ref=e227] [cursor=pointer]:
+                - /url: /recipe/gingerbread-cheesecake
+                - generic [ref=e232]: Gingerbread Cheesecake
+            - listitem [ref=e233]:
+              - link "Peanut Butter Cup Cheesecake" [ref=e234] [cursor=pointer]:
+                - /url: /recipe/peanut-butter-cup-cheesecake
+                - generic [ref=e239]: Peanut Butter Cup Cheesecake
+            - listitem [ref=e240]:
+              - link "Hannah's Peanut Butter Cup Cheesecake Presented by Crime Scene Kitchen" [ref=e241] [cursor=pointer]:
+                - /url: /recipe/hannah-s-peanut-butter-cup-cheesecake
+                - generic [ref=e245]:
+                  - generic [ref=e246]: Hannah's Peanut Butter Cup Cheesecake
+                  - generic [ref=e247]: Presented by Crime Scene Kitchen
+            - listitem [ref=e248]:
+              - link "Espresso Martini Cheesecake For 2" [ref=e249] [cursor=pointer]:
+                - /url: /recipe/espresso-martini-cheesecake-for-2
+                - generic [ref=e254]: Espresso Martini Cheesecake For 2
+            - listitem [ref=e255]:
+              - link "Ube Upside-Down Pie" [ref=e256] [cursor=pointer]:
+                - /url: /recipe/ube-upside-down-pie
+                - generic [ref=e261]: Ube Upside-Down Pie
+            - listitem [ref=e262]:
+              - link "Vegan Pumpkin Cheesecake" [ref=e263] [cursor=pointer]:
+                - /url: /recipe/vegan-pumpkin-cheesecake
+                - generic [ref=e268]: Vegan Pumpkin Cheesecake
+            - listitem [ref=e269]:
+              - link "Pumpkin Cheesecake Swirl Bars" [ref=e270] [cursor=pointer]:
+                - /url: /recipe/pumpkin-cheesecake-swirl-bars
+                - generic [ref=e275]: Pumpkin Cheesecake Swirl Bars
+            - listitem [ref=e276]:
+              - link "Peanut Brittle Cheesecake Presented by Skippy" [ref=e277] [cursor=pointer]:
+                - /url: /recipe/peanut-brittle-cheesecake
+                - generic [ref=e281]:
+                  - generic [ref=e282]: Peanut Brittle Cheesecake
+                  - generic [ref=e283]: Presented by Skippy
+        - complementary "Advertisement" [ref=e287]:
+          - generic [ref=e289]: Advertisement
+        - generic [ref=e291]:
+          - heading "Tips" [level=2] [ref=e292]
+          - generic [ref=e294]:
+            - heading "Highlights" [level=3] [ref=e295]
+            - list [ref=e296]:
+              - listitem [ref=e297]: Adjust the baking time for the dulce de leche to achieve desired caramelization 🕒
+              - listitem [ref=e298]: Try alternative methods for making dulce de leche, such as using canned or stove preparation 🥫🍳
+              - listitem [ref=e299]: Experiment with the sweetness of the pie by using less condensed milk or adding more bananas 🍌
+              - listitem [ref=e300]: Enhance the flavor of the whipped cream with vanilla extract or powdered sugar 🍦
+              - listitem [ref=e301]: Get creative with the crust by using Biscoff cookies or digestive biscuits instead of graham crackers 🍪
+            - generic [ref=e302]: Powered By Botatouille
+          - generic [ref=e303]:
+            - heading "User Tips" [level=3] [ref=e304]
+            - generic [ref=e305]:
+              - generic [ref=e306]: Sort Tips
+              - combobox "Sort Tips" [ref=e307]:
+                - 'option "Sort: Most helpful" [selected]'
+                - 'option "Sort: Newest"'
+            - generic [ref=e308]:
+              - generic [ref=e310]: 1 of 16
+              - generic [ref=e311]:
+                - generic [ref=e312]: Activating these elements will cause content on the page to be updated.
+                - button "Go to previous page of tips" [disabled] [ref=e313]:
+                  - img [ref=e314]
+                - button "Goto next page of tips" [ref=e316] [cursor=pointer]:
+                  - img [ref=e317]
+          - list [ref=e320]:
+            - listitem [ref=e321]:
+              - generic [ref=e323]:
+                - img "user avatar for rabbits" [ref=e326]
+                - generic [ref=e327]:
+                  - heading "rabbits" [level=3] [ref=e328]
+                  - generic [ref=e330]:
+                    - paragraph [ref=e331]: Instead of baking the condensed milk for 90 minutes you can simply and hell of a lot quickly add the condensed milk, brown sugar and some butter in a hot pan. Let it simmer and you’ve got the same result as baking it in a lot less time. Hope this helps❤️
+                    - generic [ref=e332]:
+                      - generic [ref=e333]: 7 years ago
+                      - generic [ref=e334]: Helpful (509)
+            - listitem [ref=e335]:
+              - generic [ref=e337]:
+                - img "user avatar for elisaveta" [ref=e340]
+                - generic [ref=e341]:
+                  - heading "elisaveta" [level=3] [ref=e342]
+                  - generic [ref=e344]:
+                    - paragraph [ref=e345]: Or you can use dulce de leche 😊
+                    - generic [ref=e346]:
+                      - generic [ref=e347]: 7 years ago
+                      - generic [ref=e348]: Helpful (262)
+            - listitem [ref=e349]:
+              - generic [ref=e351]:
+                - img "user avatar for Asha Sudhakaran" [ref=e354]
+                - generic [ref=e355]:
+                  - heading "Asha Sudhakaran" [level=3] [ref=e356]
+                  - generic [ref=e357]:
+                    - generic [ref=e358]:
+                      - paragraph [ref=e359]: Thank you for this awesome recipe!! Loved it!!
+                      - generic [ref=e360]:
+                        - generic [ref=e361]: 6 years ago
+                        - generic [ref=e362]: Helpful (209)
+                    - button "tip photo from Asha Sudhakaran" [ref=e364] [cursor=pointer]:
+                      - img "tip photo from Asha Sudhakaran" [ref=e367]
+              - complementary "Advertisement" [ref=e372]:
+                - generic [ref=e374]: Advertisement
+            - listitem [ref=e376]:
+              - generic [ref=e378]:
+                - img "user avatar for sushidough" [ref=e381]
+                - generic [ref=e382]:
+                  - heading "sushidough" [level=3] [ref=e383]
+                  - generic [ref=e385]:
+                    - paragraph [ref=e386]: I also would recommend using biscoff cookie in the pie crust! It’s tastes so good and adds a greater new level of flavor to the pie
+                    - generic [ref=e387]:
+                      - generic [ref=e388]: 7 years ago
+                      - generic [ref=e389]: Helpful (198)
+            - listitem [ref=e390]:
+              - generic [ref=e392]:
+                - img "user avatar for Nives Zupan" [ref=e395]
+                - generic [ref=e396]:
+                  - heading "Nives Zupan" [level=3] [ref=e397]
+                  - generic [ref=e398]:
+                    - generic [ref=e399]:
+                      - paragraph [ref=e400]: I made it as a cake since i didn't have propper pot for the pie. And it turned out delicious! Could be great ad birthday cake aswell
+                      - generic [ref=e401]:
+                        - generic [ref=e402]: 6 years ago
+                        - generic [ref=e403]: Helpful (101)
+                    - button "tip photo from Nives Zupan" [ref=e405] [cursor=pointer]:
+                      - img "tip photo from Nives Zupan" [ref=e408]
+            - listitem [ref=e409]:
+              - generic [ref=e411]:
+                - img "user avatar for nally.satoz" [ref=e414]
+                - generic [ref=e415]:
+                  - heading "nally.satoz" [level=3] [ref=e416]
+                  - generic [ref=e418]:
+                    - paragraph [ref=e419]: This is a regular recipe in NEW ZEALAND and you don’t really need to bake the crust at all. Malt biscuits or wine biscuits are a must for crust 💯 Put your crust in the fridge for like an hour or two and then take it out and add the caramel and also the sliced banana untop of it and then whipped cream and top it off with crushed flakes
+                    - generic [ref=e420]:
+                      - generic [ref=e421]: 6 years ago
+                      - generic [ref=e422]: Helpful (96)
+            - listitem [ref=e423]:
+              - generic [ref=e425]:
+                - img "user avatar for Shannon Hill" [ref=e428]
+                - generic [ref=e429]:
+                  - heading "Shannon Hill" [level=3] [ref=e430]
+                  - generic [ref=e431]:
+                    - generic [ref=e432]:
+                      - paragraph [ref=e433]: So pleased with results!
+                      - generic [ref=e434]:
+                        - generic [ref=e435]: 7 years ago
+                        - generic [ref=e436]: Helpful (94)
+                    - button "tip photo from Shannon Hill" [ref=e438] [cursor=pointer]:
+                      - img "tip photo from Shannon Hill" [ref=e441]
+            - listitem [ref=e442]:
+              - generic [ref=e444]:
+                - img "user avatar for Iia Reda" [ref=e447]
+                - generic [ref=e448]:
+                  - heading "Iia Reda" [level=3] [ref=e449]
+                  - generic [ref=e451]:
+                    - paragraph [ref=e452]: Easy and delicious recipe! I am really bad at doing desserts but this was a success. My whole family enjoyed this. Do not skip the step of baking the condensed milk as others say, that’s what makes the pie taste amazing.
+                    - generic [ref=e453]:
+                      - generic [ref=e454]: 7 years ago
+                      - generic [ref=e455]: Helpful (73)
+            - listitem [ref=e456]:
+              - generic [ref=e458]:
+                - img "user avatar for cherrymorgan" [ref=e461]
+                - generic [ref=e462]:
+                  - heading "cherrymorgan" [level=3] [ref=e463]
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - paragraph [ref=e466]: I did an extra layer of banana and cream just to be extra but it was sooo good! I also used a potatoes peeler on a block of chocolate to do hw shavings
+                      - generic [ref=e467]:
+                        - generic [ref=e468]: 6 years ago
+                        - generic [ref=e469]: Helpful (51)
+                    - button "tip photo from cherrymorgan" [ref=e471] [cursor=pointer]:
+                      - img "tip photo from cherrymorgan" [ref=e474]
+            - listitem [ref=e475]:
+              - generic [ref=e477]:
+                - img "user avatar for Nelva Garduza Leyva" [ref=e480]
+                - generic [ref=e481]:
+                  - heading "Nelva Garduza Leyva" [level=3] [ref=e482]
+                  - generic [ref=e484]:
+                    - paragraph [ref=e485]: Buy the canned dulce de leche instead, is much more easy and I added a teaspoon of vainilla extract to the cream in top
+                    - generic [ref=e486]:
+                      - generic [ref=e487]: 7 years ago
+                      - generic [ref=e488]: Helpful (51)
+            - listitem [ref=e489]:
+              - generic [ref=e491]:
+                - img "user avatar for jen_09" [ref=e494]
+                - generic [ref=e495]:
+                  - heading "jen_09" [level=3] [ref=e496]
+                  - generic [ref=e497]:
+                    - generic [ref=e498]:
+                      - paragraph [ref=e499]: Making toffee for 90 minutes in the oven is not enough.
+                      - generic [ref=e500]:
+                        - generic [ref=e501]: 6 years ago
+                        - generic [ref=e502]: Helpful (48)
+                    - button "tip photo from jen_09" [ref=e504] [cursor=pointer]:
+                      - img "tip photo from jen_09" [ref=e507]
+            - listitem [ref=e508]:
+              - generic [ref=e510]:
+                - img "user avatar for Xandra Raymundo" [ref=e513]
+                - generic [ref=e514]:
+                  - heading "Xandra Raymundo" [level=3] [ref=e515]
+                  - generic [ref=e516]:
+                    - generic [ref=e517]:
+                      - paragraph [ref=e518]: First time making it!
+                      - generic [ref=e519]:
+                        - generic [ref=e520]: 7 years ago
+                        - generic [ref=e521]: Helpful (48)
+                    - button "tip photo from Xandra Raymundo" [ref=e523] [cursor=pointer]:
+                      - img "tip photo from Xandra Raymundo" [ref=e526]
+        - generic [ref=e528]:
+          - heading "Peachy Keen" [level=2] [ref=e529]
+          - list [ref=e530]:
+            - listitem [ref=e531]:
+              - link "Air Fryer Peach Cobbler For 2" [ref=e532] [cursor=pointer]:
+                - /url: /recipe/air-fryer-peach-cobbler-for-2
+                - generic [ref=e537]: Air Fryer Peach Cobbler For 2
+            - listitem [ref=e538]:
+              - link "Arugula, Peach, And Goat Cheese Flatbread" [ref=e539] [cursor=pointer]:
+                - /url: /recipe/arugula-peach-and-goat-cheese-flatbread
+                - generic [ref=e544]: Arugula, Peach, And Goat Cheese Flatbread
+            - listitem [ref=e545]:
+              - link "Peach And Tomato Panzanella Presented by Walmart" [ref=e546] [cursor=pointer]:
+                - /url: /recipe/peach-and-tomato-panzanella
+                - generic [ref=e550]:
+                  - generic [ref=e551]: Peach And Tomato Panzanella
+                  - generic [ref=e552]: Presented by Walmart
+            - listitem [ref=e553]:
+              - link "Grilled Peach Panini" [ref=e554] [cursor=pointer]:
+                - /url: /recipe/grilled-peach-panini
+                - generic [ref=e559]: Grilled Peach Panini
+            - listitem [ref=e560]:
+              - link "Grilled Peach Summer Salad" [ref=e561] [cursor=pointer]:
+                - /url: /recipe/grilled-peach-summer-salad
+                - generic [ref=e566]: Grilled Peach Summer Salad
+            - listitem [ref=e567]:
+              - link "Peach Tea Brined Grilled Chicken" [ref=e568] [cursor=pointer]:
+                - /url: /recipe/peach-tea-brined-grilled-chicken
+                - generic [ref=e573]: Peach Tea Brined Grilled Chicken
+        - generic [ref=e575]:
+          - heading "Easy Side Dishes" [level=2] [ref=e576]
+          - list [ref=e577]:
+            - listitem [ref=e578]:
+              - link "Chloe Bailey's Cauliflower Popcorn \"Chicken\" Presented by DoorDash" [ref=e579] [cursor=pointer]:
+                - /url: /recipe/chloe-bailey-s-cauliflower-popcorn-chicken
+                - generic [ref=e583]:
+                  - generic [ref=e584]: Chloe Bailey's Cauliflower Popcorn "Chicken"
+                  - generic [ref=e585]: Presented by DoorDash
+            - listitem [ref=e586]:
+              - link "Sushi Rice Dip" [ref=e587] [cursor=pointer]:
+                - /url: /recipe/sushi-rice-dip
+                - generic [ref=e592]: Sushi Rice Dip
+            - listitem [ref=e593]:
+              - link "5-Ingredient Zucchini Noodles With Spicy Peanut Sauce" [ref=e594] [cursor=pointer]:
+                - /url: /recipe/5-ingredient-zucchini-noodles-with-spicy-peanut-sauce
+                - generic [ref=e599]: 5-Ingredient Zucchini Noodles With Spicy Peanut Sauce
+            - listitem [ref=e600]:
+              - link "Scalloped Vegetable Bake" [ref=e601] [cursor=pointer]:
+                - /url: /recipe/scalloped-vegetable-bake
+                - generic [ref=e606]: Scalloped Vegetable Bake
+            - listitem [ref=e607]:
+              - link "Honey Herb Grilled Corn" [ref=e608] [cursor=pointer]:
+                - /url: /recipe/honey-herb-grilled-corn
+                - generic [ref=e613]: Honey Herb Grilled Corn
+            - listitem [ref=e614]:
+              - link "Classic Caesar Salad" [ref=e615] [cursor=pointer]:
+                - /url: /recipe/classic-caesar-salad
+                - generic [ref=e620]: Classic Caesar Salad
+        - complementary "Advertisement" [ref=e624]:
+          - generic [ref=e626]: Advertisement
+        - complementary "Advertisement" [ref=e631]:
+          - generic [ref=e633]: Advertisement
+        - generic [ref=e636]:
+          - heading "Popular Recipes" [level=2] [ref=e637]
+          - list [ref=e638]:
+            - listitem [ref=e639]:
+              - link "The Best Fudgy Brownies" [ref=e640] [cursor=pointer]:
+                - /url: /recipe/the-best-fudgy-brownies
+                - generic [ref=e645]: The Best Fudgy Brownies
+            - listitem [ref=e646]:
+              - link "Top Breakfasts of 2020!" [ref=e647] [cursor=pointer]:
+                - /url: /compilation/top-breakfasts-of-2020
+                - generic [ref=e652]: Top Breakfasts of 2020!
+            - listitem [ref=e653]:
+              - link "Chocolate Chip Cookies" [ref=e654] [cursor=pointer]:
+                - /url: /recipe/chocolate-chip-cookies
+                - generic [ref=e659]: Chocolate Chip Cookies
+            - listitem [ref=e660]:
+              - link "25 Mac 'N' Cheese Recipes" [ref=e661] [cursor=pointer]:
+                - /url: /compilation/25-mac-n-cheese-recipes
+                - generic [ref=e666]: 25 Mac 'N' Cheese Recipes
+            - listitem [ref=e667]:
+              - link "Sugar Swirl Cookies" [ref=e668] [cursor=pointer]:
+                - /url: /recipe/sugar-swirl-cookies
+                - generic [ref=e673]: Sugar Swirl Cookies
+            - listitem [ref=e674]:
+              - link "Go Bananas With These Mouth-Watering Recipes" [ref=e675] [cursor=pointer]:
+                - /url: /compilation/go-bananas-with-these-mouth-watering-recipes
+                - generic [ref=e680]: Go Bananas With These Mouth-Watering Recipes
+    - contentinfo [ref=e681]:
+      - generic [ref=e682]:
+        - generic [ref=e683]:
+          - img "Tasty Logo footer" [ref=e684]
+          - generic [ref=e686]:
+            - generic [ref=e687]: Get the Tasty App
+            - generic [ref=e688]:
+              - link "Download on the App Store" [ref=e689] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/tasty/id1217456898?itsct=apps_box_badge&itscg=30200
+                - img "Download on the App Store" [ref=e690]
+              - link "Get it on Google Play" [ref=e691] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.buzzfeed.tasty&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+                - img "Get it on Google Play" [ref=e692]
+          - generic [ref=e695]:
+            - heading "Get the Tasty Newsletter" [level=2] [ref=e696]
+            - generic [ref=e698]:
+              - generic [ref=e699]: Email address (required)
+              - textbox "Email address (required)" [ref=e700]:
+                - /placeholder: Your email address
+              - button "Sign up" [ref=e701] [cursor=pointer]
+              - generic [ref=e702]:
+                - text: This site is protected by reCAPTCHA and the Google
+                - link "Privacy Policy" [ref=e703] [cursor=pointer]:
+                  - /url: https://policies.google.com/privacy
+                - text: and
+                - link "Terms of Service" [ref=e704] [cursor=pointer]:
+                  - /url: https://policies.google.com/terms
+                - text: apply.
+          - generic [ref=e706]:
+            - generic [ref=e707]: Follow Tasty
+            - list [ref=e708]:
+              - listitem [ref=e709]:
+                - link "Go to Tasty on Facebook" [ref=e710] [cursor=pointer]:
+                  - /url: https://www.facebook.com/buzzfeedtasty/
+                  - img [ref=e711]
+              - listitem [ref=e713]:
+                - link "Go to Tasty on Twitter" [ref=e714] [cursor=pointer]:
+                  - /url: https://twitter.com/tasty
+                  - img [ref=e715]
+              - listitem [ref=e717]:
+                - link "Go to Tasty on Instagram" [ref=e718] [cursor=pointer]:
+                  - /url: https://www.instagram.com/buzzfeedtasty
+                  - img [ref=e719]
+              - listitem [ref=e721]:
+                - link "Go to Tasty on Youtube" [ref=e722] [cursor=pointer]:
+                  - /url: https://www.youtube.com/buzzfeedtasty
+                  - img [ref=e723]
+        - generic [ref=e725]:
+          - list [ref=e726]:
+            - listitem [ref=e727]:
+              - link "Send feedback" [ref=e728] [cursor=pointer]:
+                - /url: "mailto:support@buzzfeed.com?subject=Tasty.co User Support&body=%0A%0A----------------------- %0A%0ALink: https%3A%2F%2Ftasty.co%2Frecipe%2Fbanoffee-pie"
+            - listitem [ref=e729]:
+              - link "Recipes by Ingredient" [ref=e730] [cursor=pointer]:
+                - /url: /ingredient
+            - listitem [ref=e731]:
+              - link "Community Recipes" [ref=e732] [cursor=pointer]:
+                - /url: /topic/community
+            - listitem [ref=e733]:
+              - link "Privacy Policy" [ref=e734] [cursor=pointer]:
+                - /url: /about/privacy
+            - listitem [ref=e735]:
+              - link "User Agreement" [ref=e736] [cursor=pointer]:
+                - /url: https://www.buzzfeed.com/about/useragreement?country=en-us
+            - listitem [ref=e737]:
+              - link "Accessibility Statement" [ref=e738] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e739]:
+              - link "Our Tasty Values" [ref=e740] [cursor=pointer]:
+                - /url: /tastyvalues
+            - listitem [ref=e741]:
+              - link "Advertise with Tasty" [ref=e742] [cursor=pointer]:
+                - /url: https://advertise.buzzfeed.com/tasty
+          - generic [ref=e743]: © 2024 BuzzFeed, Inc
+  - alert [ref=e744]

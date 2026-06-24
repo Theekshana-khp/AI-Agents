@@ -1,0 +1,583 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - generic "Open the menu" [ref=e7]:
+        - img "Menu" [ref=e8]:
+          - img [ref=e9]
+        - generic [ref=e11]: MENU
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /
+        - figure [ref=e14]:
+          - img "Taste of Home Logo" [ref=e15]
+      - generic [ref=e16]:
+        - search [ref=e19]:
+          - generic [ref=e20]:
+            - textbox "Search" [ref=e21]
+            - button "Search" [ref=e22] [cursor=pointer]
+        - button "Open notifications feed" [ref=e23] [cursor=pointer]
+  - main [ref=e24]:
+    - article [ref=e25]:
+      - generic [ref=e27]:
+        - button "Previous Slide" [disabled]:
+          - img
+        - generic [ref=e29]:
+          - link "How to Make Chocolate Pudding Pie How to Make Chocolate Pudding Pie" [ref=e31] [cursor=pointer]:
+            - /url: /article/chocolate-pudding-pie/
+            - img "How to Make Chocolate Pudding Pie" [ref=e32]
+            - generic [ref=e33]: How to Make Chocolate Pudding Pie
+          - link "7 Pudgy Pie Recipes 7 Pudgy Pie Recipes" [ref=e35] [cursor=pointer]:
+            - /url: /collection/pudgy-pie-recipes/
+            - img "7 Pudgy Pie Recipes" [ref=e36]
+            - generic [ref=e37]: 7 Pudgy Pie Recipes
+          - link "Dreamy Cream Pie Recipes Dreamy Cream Pie Recipes" [ref=e39] [cursor=pointer]:
+            - /url: /collection/cream-pie-recipes/
+            - img "Dreamy Cream Pie Recipes" [ref=e40]
+            - generic [ref=e41]: Dreamy Cream Pie Recipes
+          - link "How to Make Old-Fashioned Banana Pudding How to Make Old-Fashioned Banana Pudding" [ref=e43] [cursor=pointer]:
+            - /url: /article/old-fashioned-banana-pudding-recipe/
+            - img "How to Make Old-Fashioned Banana Pudding" [ref=e44]
+            - generic [ref=e45]: How to Make Old-Fashioned Banana Pudding
+          - link "How to Make Banana Pudding Dump Cake How to Make Banana Pudding Dump Cake" [ref=e47] [cursor=pointer]:
+            - /url: /article/banana-pudding-dump-cake/
+            - img "How to Make Banana Pudding Dump Cake" [ref=e48]
+            - generic [ref=e49]: How to Make Banana Pudding Dump Cake
+          - link "Top 5 Pecan Pies Top 5 Pecan Pies" [ref=e51] [cursor=pointer]:
+            - /url: /collection/top-10-pecan-pies/
+            - img "Top 5 Pecan Pies" [ref=e52]
+            - generic [ref=e53]: Top 5 Pecan Pies
+          - link "How to Make No-Bake Oreo Pie How to Make No-Bake Oreo Pie" [ref=e55] [cursor=pointer]:
+            - /url: /article/no-bake-oreo-pie/
+            - img "How to Make No-Bake Oreo Pie" [ref=e56]
+            - generic [ref=e57]: How to Make No-Bake Oreo Pie
+          - link "How to Make Chocolate Mousse Pie How to Make Chocolate Mousse Pie" [ref=e59] [cursor=pointer]:
+            - /url: /article/how-to-make-chocolate-mousse-pie/
+            - img "How to Make Chocolate Mousse Pie" [ref=e60]
+            - generic [ref=e61]: How to Make Chocolate Mousse Pie
+          - link "What Is Mincemeat Pie and How to Make It What Is Mincemeat Pie and How to Make It" [ref=e63] [cursor=pointer]:
+            - /url: /article/what-is-mince-pie/
+            - img "What Is Mincemeat Pie and How to Make It" [ref=e64]
+            - generic [ref=e65]: What Is Mincemeat Pie and How to Make It
+          - link "Here's Every Pie Recipe You'll Ever Need Here's Every Pie Recipe You'll Ever Need" [ref=e67] [cursor=pointer]:
+            - /url: /collection/every-pie-recipe-youll-ever-need/
+            - img "Here's Every Pie Recipe You'll Ever Need" [ref=e68]
+            - generic [ref=e69]: Here's Every Pie Recipe You'll Ever Need
+          - link "How to Freeze a Pie How to Freeze a Pie" [ref=e71] [cursor=pointer]:
+            - /url: /article/how-to-freeze-a-pie/
+            - img "How to Freeze a Pie" [ref=e72]
+            - generic [ref=e73]: How to Freeze a Pie
+          - link "12 Pies That Start with Pudding Mix 12 Pies That Start with Pudding Mix" [ref=e75] [cursor=pointer]:
+            - /url: /collection/pies-that-start-with-pudding-mix/
+            - img "12 Pies That Start with Pudding Mix" [ref=e76]
+            - generic [ref=e77]: 12 Pies That Start with Pudding Mix
+          - link "How to Bake a Fruit Pie with Frozen Fruit How to Bake a Fruit Pie with Frozen Fruit" [ref=e79] [cursor=pointer]:
+            - /url: /article/how-to-bake-a-fruit-pie-with-frozen-fruit/
+            - img "How to Bake a Fruit Pie with Frozen Fruit" [ref=e80]
+            - generic [ref=e81]: How to Bake a Fruit Pie with Frozen Fruit
+          - link "Does Pecan Pie Need to Be Refrigerated? Does Pecan Pie Need to Be Refrigerated?" [ref=e83] [cursor=pointer]:
+            - /url: /article/does-pecan-pie-need-to-be-refrigerated/
+            - img "Does Pecan Pie Need to Be Refrigerated?" [ref=e84]
+            - generic [ref=e85]: Does Pecan Pie Need to Be Refrigerated?
+          - link "Our 50 Best Pie Recipes, from Classics to New Favorites Our 50 Best Pie Recipes, from Classics to New Favorites" [ref=e87] [cursor=pointer]:
+            - /url: /collection/our-best-pie-recipes/
+            - img "Our 50 Best Pie Recipes, from Classics to New Favorites" [ref=e88]
+            - generic [ref=e89]: Our 50 Best Pie Recipes, from Classics to New Favorites
+          - link "21 Dreamy, Decadent and Delicious Chocolate Pies 21 Dreamy, Decadent and Delicious Chocolate Pies" [ref=e91] [cursor=pointer]:
+            - /url: /collection/chocolate-pies/
+            - img "21 Dreamy, Decadent and Delicious Chocolate Pies" [ref=e92]
+            - generic [ref=e93]: 21 Dreamy, Decadent and Delicious Chocolate Pies
+          - link "42 of Our Best Summer Pies 42 of Our Best Summer Pies" [ref=e95] [cursor=pointer]:
+            - /url: /collection/best-summer-pies/
+            - img "42 of Our Best Summer Pies" [ref=e96]
+            - generic [ref=e97]: 42 of Our Best Summer Pies
+          - link "26 Pies That'll Cure Your Winter Blues 26 Pies That'll Cure Your Winter Blues" [ref=e99] [cursor=pointer]:
+            - /url: /collection/winter-pie-recipes/
+            - img "26 Pies That'll Cure Your Winter Blues" [ref=e100]
+            - generic [ref=e101]: 26 Pies That'll Cure Your Winter Blues
+          - link "31 Recipes for No-Bake Pies 31 Recipes for No-Bake Pies" [ref=e103] [cursor=pointer]:
+            - /url: /collection/no-bake-pies/
+            - img "31 Recipes for No-Bake Pies" [ref=e104]
+            - generic [ref=e105]: 31 Recipes for No-Bake Pies
+          - link "I Made Dolly Parton's Butterscotch Pie and It's As Sweet As Dolly Herself I Made Dolly Parton's Butterscotch Pie and It's As Sweet As Dolly Herself" [ref=e107] [cursor=pointer]:
+            - /url: /article/dolly-parton-butterscotch-pie/
+            - img "I Made Dolly Parton's Butterscotch Pie and It's As Sweet As Dolly Herself" [ref=e108]
+            - generic [ref=e109]: I Made Dolly Parton's Butterscotch Pie and It's As Sweet As Dolly Herself
+        - button "Next Slide" [ref=e110] [cursor=pointer]:
+          - img [ref=e111]
+      - generic [ref=e113]:
+        - navigation "Breadcrumbs" [ref=e115]:
+          - link "Home" [ref=e116] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com
+          - img [ref=e118]
+          - link "Pies" [ref=e120] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/dishes-beverages/pies/
+          - img [ref=e122]
+          - link "Pie Crust Recipes" [ref=e124] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/dishes-beverages/pies/pie-crust-recipes/
+          - img [ref=e126]
+          - link "Graham Cracker Crust Pies" [ref=e128] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/dishes-beverages/pies/pie-crust-recipes/graham-cracker-crust-pies/
+        - generic [ref=e129]:
+          - generic [ref=e131]:
+            - figure "Banoffee Pie Recipe photo by Taste of Home" [ref=e132]:
+              - generic [ref=e133]:
+                - button "play video" [ref=e134] [cursor=pointer]:
+                  - img "play video" [ref=e135]:
+                    - img [ref=e136]
+                - img "Banoffee Pie" [ref=e140]
+              - generic [ref=e141]: Banoffee Pie Recipe photo by Taste of Home
+            - link "Test Kitchen Approved" [ref=e142] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/article/test-kitchen-approved/
+              - text: TEST KITCHEN APPROVED
+          - generic [ref=e143]:
+            - heading "Banoffee Pie" [level=1] [ref=e144]
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - link "Star Rating" [ref=e147] [cursor=pointer]:
+                  - /url: "#Reviews"
+                  - img "full star" [ref=e148]:
+                    - img [ref=e149]
+                  - img "full star" [ref=e151]:
+                    - img [ref=e152]
+                  - img "full star" [ref=e154]:
+                    - img [ref=e155]
+                  - img "full star" [ref=e157]:
+                    - img [ref=e158]
+                  - img "empty star" [ref=e160]:
+                    - img [ref=e161]
+                - link "Review Count" [ref=e163] [cursor=pointer]:
+                  - /url: "#Reviews"
+                  - text: 1 Reviews
+              - generic [ref=e166]:
+                - img "Total Time" [ref=e167]:
+                  - img [ref=e168]
+                - generic [ref=e170]:
+                  - generic [ref=e171]: "Total Time:"
+                  - generic [ref=e172]: "Prep: 25 min. + chilling Bake: 15 min."
+            - generic [ref=e174]:
+              - paragraph [ref=e175]:
+                - text: By
+                - link "Risa Lichtman" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/author/risa-lichtman/
+                - text: and
+                - link "Val Goodrich" [ref=e177] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/author/valerie-goodrich/
+              - paragraph [ref=e178]: Recipe by Risa Lichtman, Portland, Oregon
+              - paragraph [ref=e179]:
+                - text: Tested by
+                - link "Taste of Home Test Kitchen" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/article/test-kitchen-approved
+              - paragraph [ref=e181]:
+                - img [ref=e183]
+                - link "Taste of Home's Editorial Process" [ref=e185] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/about-taste-of-home/
+              - paragraph [ref=e186]: Published on Jul. 14, 2025
+            - generic [ref=e187]:
+              - button "Jump to Recipe" [ref=e188] [cursor=pointer]:
+                - img [ref=e190]:
+                  - img [ref=e191]
+                - generic [ref=e193]: Jump to Recipe
+              - button "Save" [ref=e194] [cursor=pointer]:
+                - img [ref=e196]
+                - generic [ref=e198]: Save
+              - list [ref=e199]:
+                - listitem [ref=e200]:
+                  - button "Facebook Share" [ref=e201] [cursor=pointer]:
+                    - img "Facebook Share" [ref=e202]:
+                      - img [ref=e203]
+                - listitem [ref=e205]:
+                  - button "Pinterest Share" [ref=e206] [cursor=pointer]:
+                    - img "Pinterest Share" [ref=e207]:
+                      - img [ref=e208]
+                - listitem [ref=e210]:
+                  - button "Twitter Share" [ref=e211] [cursor=pointer]:
+                    - img "Twitter Share" [ref=e212]:
+                      - img [ref=e213]
+                - listitem [ref=e216]:
+                  - button "Email" [ref=e217] [cursor=pointer]:
+                    - img "Email" [ref=e218]:
+                      - img [ref=e219]
+        - paragraph [ref=e226]: Need a showstopper dessert that doesn't require baking the day away? This banoffee pie recipe is the answer.
+      - generic [ref=e227]:
+        - paragraph [ref=e228]:
+          - text: If you’re looking for a dessert that’s tasty enough to make you Star Baker on the
+          - emphasis [ref=e229]: The
+          - emphasis [ref=e230]: Great British Bake Off
+          - text: ", look no further. This fuss-free banoffee pie recipe is pretty enough for a celebration, but easy enough to serve as a weeknight dessert. I adore banoffee pie for its quick prep time and perfect marriage of flavors. And you’ll never have to worry about a soggy bottom with this foolproof pie!"
+        - heading "What is banoffee pie?" [level=2] [ref=e231]
+        - paragraph [ref=e232]:
+          - text: Banoffee pie is a classic
+          - link "British dessert" [ref=e233] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/traditional-british-desserts/
+          - text: made of a sweet-salty graham cracker crust filled with dulce de leche and fresh banana slices, and finished with pillows of whipped cream and chocolate shavings. Purportedly invented in the 1970s by a restaurant in East Sussex, England, it was named “banoffee” for the flavor combination of bananas and toffee (and like most
+          - link "British food names" [ref=e234] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/classic-british-food-names/
+          - text: ", is best said aloud in your most impressive English accent). The flavor combo is so beloved that it’s inspired many other banoffee desserts, like banoffee cheesecake, trifles and cakes."
+        - heading "Ingredients for Banoffee Pie" [level=2] [ref=e235]
+        - list [ref=e236]:
+          - listitem [ref=e237]:
+            - strong [ref=e238]: "Graham cracker crust:"
+            - text: While you can certainly buy a premade graham cracker crust, the magic happens when you use homemade ones—and they’re not hard to make. All you’ll need are graham cracker crumbs, melted butter, granulated sugar and a bit of salt.
+          - listitem [ref=e239]:
+            - strong [ref=e240]: "Bananas:"
+            - text: Slice the bananas so they’re 1/4 inch thick. Any bigger will feel like overkill, but any smaller and you’ll hardly taste them.
+          - listitem [ref=e241]:
+            - strong [ref=e242]: "Dulce de leche:"
+            - text: Find dulce de leche in the baking aisle or international aisle.
+          - listitem [ref=e243]:
+            - strong [ref=e244]: "Heavy whipping cream:"
+            - text: We’re making our own whipped cream topping because most things taste better from scratch. Heavy whipping cream is the base of all whipped creams.
+          - listitem [ref=e245]:
+            - strong [ref=e246]: "Instant espresso powder:"
+            - text: We add espresso powder to the whipped cream for a little bit of coffee flavor.
+          - listitem [ref=e247]:
+            - strong [ref=e248]: "Confectioners’ sugar:"
+            - text: We sweeten the whipped cream just a bit with confectioners’ sugar.
+          - listitem [ref=e249]:
+            - strong [ref=e250]: "Vanilla extract:"
+            - text: Feel free to use good-quality vanilla extract or vanilla paste. I love using vanilla paste in creamy desserts because the tiny black flecks are so pretty and flavorful.
+          - listitem [ref=e251]:
+            - strong [ref=e252]: "Chocolate bar:"
+            - text: To finish the pie, shave chocolate curls off a dark or semisweet chocolate bar. I like to do this right on top of the finished pie.
+        - heading "Directions" [level=2] [ref=e253]
+        - 'heading "Step 1: Make the graham cracker crust" [level=3] [ref=e254]'
+        - figure "TASTE OF HOME" [ref=e255]:
+          - img "Banoffee Pie Tohvs25 279994 Mr 06 04 1" [ref=e256]
+          - generic [ref=e257]: TASTE OF HOME
+        - paragraph [ref=e260]: Preheat the oven to 350°F. In a large bowl, stir together the graham cracker crumbs, butter, sugar and salt.
+        - paragraph [ref=e261]:
+          - emphasis [ref=e262]: "Editor’s Tip:"
+          - text: You can make graham cracker crumbs from whole graham crackers by pulsing the graham crackers in a food processor.
+        - 'heading "Step 2: Form and bake the crust" [level=3] [ref=e263]'
+        - figure "TASTE OF HOME" [ref=e264]:
+          - img "Overhead shot of Press mixture into the bottom and up the sides sides of a 9 inch deep-dish pie plate; Bake until crust is set about 15 minutes; Cool completely; all set on a marble textured surface" [ref=e265]
+          - generic [ref=e266]: TASTE OF HOME
+        - paragraph [ref=e269]: Press the mixture into the bottom and up the sides of a 9-inch deep-dish pie plate. Bake the crust until it’s set, about 15 minutes. Cool the crust completely to room temperature.
+        - 'heading "Step 3: Whip up the topping" [level=3] [ref=e270]'
+        - figure "TASTE OF HOME" [ref=e271]:
+          - img "Overheda shot of Place heavy whipping cream; espresso powder; confectioners’ sugar and vanilla extract in a large bowl; Whisk until soft peaks form; set aside; whisk tool; all set on a marble textured surface" [ref=e272]
+          - generic [ref=e273]: TASTE OF HOME
+        - paragraph [ref=e276]: Place the heavy whipping cream, espresso powder, confectioners’ sugar and vanilla extract in a large bowl. Whisk them together by hand or with beaters until soft peaks form. Set the whipped cream aside.
+        - 'heading "Step 4: Add the filling" [level=3] [ref=e277]'
+        - figure "TASTE OF HOME" [ref=e278]:
+          - img "3/4 angle view shot of spread dulce de leche into cooled crust; on a marble textured surface" [ref=e279]
+          - generic [ref=e280]: TASTE OF HOME
+        - paragraph [ref=e283]: Using a mini offset spatula, rubber spatula or the back of a spoon, spread the dulce de leche into the cooled crust.
+        - figure "TASTE OF HOME" [ref=e284]:
+          - img "Overhead shot of Top with two layers of sliced bananas; on a marble textured surface" [ref=e285]
+          - generic [ref=e286]: TASTE OF HOME
+        - paragraph [ref=e289]: Top the dulce de leche with two layers of the sliced bananas.
+        - paragraph [ref=e290]:
+          - emphasis [ref=e291]: "Editor’s Tip:"
+          - text: If the dulce de leche is too stiff, run your spatula or spoon under very hot water, then wipe it clean and spread out the dulce.
+        - 'heading "Step 5: Spread on the whipped cream" [level=3] [ref=e292]'
+        - figure "TASTE OF HOME" [ref=e293]:
+          - img "3/4 angle view shot of spoon whipped cream over the bananas; Refrigerate at least three hours or overnight; all set on a marble textured surface" [ref=e294]
+          - generic [ref=e295]: TASTE OF HOME
+        - paragraph [ref=e298]: Spoon the whipped cream over the bananas.
+        - paragraph [ref=e299]:
+          - emphasis [ref=e300]: "Editor’s Tip:"
+          - text: Feel free to add pretty swoops or other designs! I sometimes like to pipe the whipped cream on top in rows using a figure eight pattern.
+        - 'heading "Step 6: Decorate the pie" [level=3] [ref=e301]'
+        - figure "TASTE OF HOME" [ref=e302]:
+          - img "Close shot of the same pie plate; garnish with chocolate shavings before serving; alls et on a marble textured surface" [ref=e303]
+          - generic [ref=e304]: TASTE OF HOME
+        - paragraph [ref=e307]: Refrigerate the banoffee pie for at least three hours or overnight. If desired, garnish the pie with chocolate shavings before serving.
+        - figure "TASTE OF HOME" [ref=e308]:
+          - img "3/4 angle view shot of Banoffee Pie in a large pie plate; sliced and served on two plates; with a fork resting on a light green napkin; all set on a marble-textured surface" [ref=e309]
+          - generic [ref=e310]: TASTE OF HOME
+        - heading "Recipe Variations" [level=2] [ref=e313]
+        - list [ref=e314]:
+          - listitem [ref=e315]:
+            - strong [ref=e316]: "Try a different crumb crust:"
+            - text: Bored of graham cracker crusts? There are so many other
+            - link "crumb crust ingredients" [ref=e317] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/collection/crumb-crust-ingredients/
+            - text: to try out instead. Biscoff, Nilla wafers or even pretzels would all taste great in this banoffee pie recipe.
+          - listitem [ref=e318]:
+            - strong [ref=e319]: "Make the dulce de leche from scratch:"
+            - text: It’s easier to make this pie with store-bought dulce de leche, but we’ll never turn down the desire to make as many ingredients from scratch as possible. Homemade
+            - link "dulce de leche" [ref=e320] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/recipes/dulce-de-leche-recipe/
+            - text: is easy; just make sure you take the proper safety precautions.
+        - heading "How to Store Banoffee Pie" [level=2] [ref=e321]
+        - paragraph [ref=e322]: Banoffee pie absolutely must be stored in the fridge due to the dairy, but the bananas and whipped cream taste best when very cold.
+        - heading "Can you make banoffee pie ahead of time?" [level=3] [ref=e323]
+        - paragraph [ref=e324]: Yes! Banoffee pie can be made a day ahead. Cover it and store it in the fridge. You can also make the graham cracker crust several days in advance.
+        - heading "Banoffee Pie Tips" [level=2] [ref=e325]
+        - heading "What’s the best way to work with dulce de leche?" [level=3] [ref=e326]
+        - paragraph [ref=e327]: If you have a very thick dulce de leche, it can be hard to get it into and out of a measuring cup or to spread it onto the graham cracker crust. I like to very lightly oil the entire inside of the measuring cup before adding the dulce de leche. This makes it easy to pour out. As for spreading it, run your spatula under hot water to make the dulce de leche much easier to spread. The same goes when you’re working with honey or any other sticky ingredient.
+        - heading "How ripe should the bananas be for banoffee pie?" [level=3] [ref=e330]
+        - paragraph [ref=e331]: You want the bananas to be fairly firm so they hold their shape when sliced, but ripe enough to taste sweet. Choose very yellow bananas with only a small smattering of brown spots.
+        - heading "How do you prevent the bananas from browning?" [level=3] [ref=e332]
+        - paragraph [ref=e333]: Bananas, like many other foods we love, can quickly oxidize and will turn an unappealing brown color when exposed to air. The best way to avoid oxidation is to cut the bananas just before filling the pie. Once they’re in the pie and sandwiched between the dulce de leche and whipped cream, they will no longer be exposed to air, and you won’t have to worry about them browning. If you must cut them ahead of time, squeeze fresh lemon juice on them to prevent oxidation.
+        - heading "Watch How to Make Banoffee Pie" [level=2] [ref=e335]
+      - generic [ref=e342]:
+        - generic [ref=e343]:
+          - link "Test Kitchen Approved" [ref=e344] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/article/test-kitchen-approved/
+            - text: TEST KITCHEN APPROVED
+          - generic [ref=e345]:
+            - heading "Banoffee Pie" [level=2] [ref=e346]
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - link "Star Rating" [ref=e349] [cursor=pointer]:
+                  - /url: "#Reviews"
+                  - img "full star" [ref=e350]:
+                    - img [ref=e351]
+                  - img "full star" [ref=e353]:
+                    - img [ref=e354]
+                  - img "full star" [ref=e356]:
+                    - img [ref=e357]
+                  - img "full star" [ref=e359]:
+                    - img [ref=e360]
+                  - img "empty star" [ref=e362]:
+                    - img [ref=e363]
+                - link "Review Count" [ref=e365] [cursor=pointer]:
+                  - /url: "#Reviews"
+                  - text: 1 Reviews
+                - link "Add your review" [ref=e366] [cursor=pointer]:
+                  - /url: "#Reviews"
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - img "Yield" [ref=e369]:
+                    - img [ref=e370]
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: "Yield:"
+                    - generic [ref=e374]: 8 servings
+                - generic [ref=e375]:
+                  - img "Prep" [ref=e376]:
+                    - img [ref=e377]
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: "Prep:"
+                    - generic [ref=e381]: 25 min
+                - generic [ref=e382]:
+                  - img "Cook" [ref=e383]:
+                    - img [ref=e384]
+                  - generic [ref=e386]:
+                    - generic [ref=e387]: "Cook:"
+                    - generic [ref=e388]: 15 min
+            - generic [ref=e389]:
+              - button "Save" [ref=e390] [cursor=pointer]:
+                - img [ref=e392]
+                - generic [ref=e394]: Save
+              - button "email" [ref=e395] [cursor=pointer]:
+                - img [ref=e397]:
+                  - img [ref=e398]
+                - generic [ref=e400]: email
+              - button "print" [ref=e401] [cursor=pointer]:
+                - img [ref=e403]:
+                  - img [ref=e404]
+                - generic [ref=e406]: print
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - heading "Ingredients" [level=3] [ref=e409]
+              - list [ref=e410]:
+                - listitem [ref=e411]: 1-1/4 cups graham cracker crumbs
+                - listitem [ref=e412]: 1/2 cup butter, melted
+                - listitem [ref=e413]: 1/3 cup sugar
+                - listitem [ref=e414]: 1/4 teaspoon salt
+                - listitem [ref=e415]: "filling:"
+                - list [ref=e416]:
+                  - listitem [ref=e417]: 3 bananas, sliced 1/4 inch thick
+                  - listitem [ref=e418]: 1 cup dulce de leche
+                  - listitem [ref=e419]: 1-1/2 cups heavy whipping cream
+                  - listitem [ref=e420]: 1-1/2 teaspoons instant espresso powder
+                  - listitem [ref=e421]: 3 tablespoons confectioners' sugar
+                  - listitem [ref=e422]: 1 teaspoon vanilla extract
+                  - listitem [ref=e423]: Chocolate shavings, optional
+            - generic [ref=e426]:
+              - heading "Directions" [level=3] [ref=e427]
+              - list [ref=e428]:
+                - listitem [ref=e429]:
+                  - generic [ref=e430]:
+                    - generic [ref=e431]: "1"
+                    - generic [ref=e432]: Preheat oven to 350°. In a large bowl, mix together graham cracker crumbs, butter, sugar and salt. Press mixture into the bottom and up the sides sides of a 9-inch deep-dish pie plate. Bake until crust is set, about 15 minutes. Cool completely.
+                - listitem [ref=e435]:
+                  - generic [ref=e436]:
+                    - generic [ref=e437]: "2"
+                    - generic [ref=e438]: Place heavy whipping cream, espresso powder, confectioners’ sugar and vanilla extract in a large bowl. Whisk until soft peaks form; set aside.
+                - listitem [ref=e439]:
+                  - generic [ref=e440]:
+                    - generic [ref=e441]: "3"
+                    - generic [ref=e442]: Spread dulce de leche into cooled crust. Top with two layers of sliced bananas. Spoon whipped cream over the bananas. Refrigerate at least three hours or overnight. Garnish with chocolate shavings before serving, if desired.
+          - generic [ref=e444]:
+            - heading "Nutrition Facts" [level=3] [ref=e445]
+            - generic [ref=e446]: "1 slice: 527 calories, 32g fat (19g saturated fat), 91mg cholesterol, 320mg sodium, 56g carbohydrate (43g sugars, 2g fiber), 5g protein."
+        - generic [ref=e449]:
+          - generic [ref=e450]:
+            - generic [ref=e451]:
+              - generic [ref=e453]: Author
+              - generic [ref=e454]: Risa Lichtman
+              - generic [ref=e455]: Risa is a recipe developer, food writer, trained chef and activist. When she’s not writing about cooking techniques and creating recipes for Taste of Home, she’s running her food and drink business, spending time with her wife and pets, and running a soup group.
+              - link "Read more about this author" [ref=e457] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/author/risa-lichtman/
+                - text: Read More
+            - img "Risa Lichtman" [ref=e459]
+          - generic [ref=e460]:
+            - generic [ref=e461]:
+              - generic [ref=e463]: Author
+              - generic [ref=e464]: Val Goodrich
+              - generic [ref=e465]: Val channels her experience from the Culinary Institute of America and a number of bakeries into her daily work at Taste of Home. She’s usually typing away at her desk in Philly, but otherwise, you can find her planning her next trip abroad, using her ice cream maker or filling her basket at the farmers market.
+              - link "Read more about this author" [ref=e467] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/author/valerie-goodrich/
+                - text: Read More
+            - img "Val Goodrich" [ref=e469]
+        - generic [ref=e471]:
+          - generic [ref=e472]: READY, SET, SUMMER!
+          - generic [ref=e473]:
+            - link "Grilled Apps to Make This Summer Get Outside Grilled Apps to Make This Summer" [ref=e475] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/collection/grilled-appetizer-recipes/
+              - generic [ref=e476]:
+                - img "Grilled Apps to Make This Summer"
+              - generic [ref=e477]:
+                - generic [ref=e478]: Get Outside
+                - heading "Grilled Apps to Make This Summer" [level=5] [ref=e479]
+            - link "Easy No-Bake Desserts Keep Cool Easy No-Bake Desserts" [ref=e481] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/collection/old-fashioned-no-bake-desserts/
+              - generic [ref=e482]:
+                - img "Easy No-Bake Desserts"
+              - generic [ref=e483]:
+                - generic [ref=e484]: Keep Cool
+                - heading "Easy No-Bake Desserts" [level=5] [ref=e485]
+            - link "Recipes for Your Picnic Basket In Season Recipes for Your Picnic Basket" [ref=e487] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/collection/summer-recipes-to-pack-in-your-picnic-basket/
+              - generic [ref=e488]:
+                - img "Recipes for Your Picnic Basket"
+              - generic [ref=e489]:
+                - generic [ref=e490]: In Season
+                - heading "Recipes for Your Picnic Basket" [level=5] [ref=e491]
+            - link "Healthy Summer Recipes We Love Feel Good Healthy Summer Recipes We Love" [ref=e493] [cursor=pointer]:
+              - /url: https://www.tasteofhome.com/collection/healthy-summer-recipes/
+              - generic [ref=e494]:
+                - img "Healthy Summer Recipes We Love"
+              - generic [ref=e495]:
+                - generic [ref=e496]: Feel Good
+                - heading "Healthy Summer Recipes We Love" [level=5] [ref=e497]
+        - generic [ref=e499]:
+          - img [ref=e501]
+          - generic [ref=e503]:
+            - text: Banoffee pie layers bananas, dulce de leche and freshly whipped cream in a graham cracker crust. This British dessert will be a smashing hit at your gatherings—no matter where you live! —Risa Lichtman, Portland, Oregon
+            - generic [ref=e505]: Recipe Creator
+          - img [ref=e507]
+        - generic [ref=e511]:
+          - text: This reviews section is powered by Viafoura, whose
+          - link "privacy policy" [ref=e512] [cursor=pointer]:
+            - /url: https://viafoura.com/privacy-policy/
+          - text: governs its data practices.
+  - contentinfo [ref=e513]:
+    - generic [ref=e514]:
+      - generic [ref=e515]:
+        - generic [ref=e517]:
+          - list [ref=e518]:
+            - listitem [ref=e519]:
+              - link "Recipes" [ref=e520] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/recipes/
+            - listitem [ref=e521]:
+              - link "Contests" [ref=e522] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/contests/
+            - listitem [ref=e523]:
+              - link "News" [ref=e524] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/news/
+            - listitem [ref=e525]:
+              - link "Health & Wellness" [ref=e526] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/health-wellness/
+            - listitem [ref=e527]:
+              - link "Holidays & Events" [ref=e528] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/holidays-events/
+          - list [ref=e529]:
+            - listitem [ref=e530]:
+              - link "Home & Living" [ref=e531] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/home-living/
+            - listitem [ref=e532]:
+              - link "Stuff We Love" [ref=e533] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/stuff-we-love/
+            - listitem [ref=e534]:
+              - link "Test Kitchen" [ref=e535] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/test-kitchen/
+            - listitem [ref=e536]:
+              - link "Magazine" [ref=e537] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/article/subscribe-to-our-magazines/
+        - generic [ref=e538]:
+          - generic [ref=e539]:
+            - paragraph [ref=e540]: Our Brands
+            - navigation "links to other brands" [ref=e541]:
+              - list [ref=e542]:
+                - listitem [ref=e543]:
+                  - link "Reader’s Digest" [ref=e544] [cursor=pointer]:
+                    - /url: https://www.rd.com/
+                - listitem [ref=e545]:
+                  - link "Family Handyman" [ref=e546] [cursor=pointer]:
+                    - /url: https://www.familyhandyman.com/
+                - listitem [ref=e547]:
+                  - link "Birds & Blooms" [ref=e548] [cursor=pointer]:
+                    - /url: https://www.birdsandblooms.com/
+                - listitem [ref=e549]:
+                  - link "The Healthy" [ref=e550] [cursor=pointer]:
+                    - /url: https://www.thehealthy.com/
+          - navigation "global links" [ref=e552]:
+            - list [ref=e553]:
+              - listitem [ref=e554]:
+                - link "About Us" [ref=e555] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/about-taste-of-home/
+              - listitem [ref=e556]:
+                - link "Contests" [ref=e557] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/contests/
+              - listitem [ref=e558]:
+                - link "RSS" [ref=e559] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/feed/
+              - listitem [ref=e560]:
+                - link "Customer Care" [ref=e561] [cursor=pointer]:
+                  - /url: https://w1.buysub.com/pubs/RM/TOH/index_toh.jsp?cds_mag_code=TOH&cds_page_id=83141
+              - listitem [ref=e562]:
+                - link "Contact Us" [ref=e563] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/help/contact-us/
+              - listitem [ref=e564]:
+                - link "Log In" [ref=e565] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/my-account/
+              - listitem [ref=e566]:
+                - link "Help" [ref=e567] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/help/
+              - listitem [ref=e568]:
+                - link "Press Room" [ref=e569] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/our-brands/taste-of-home/
+              - listitem [ref=e570]:
+                - link "Advertise with Us" [ref=e571] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/brands/taste-of-home/
+              - listitem [ref=e572]:
+                - link "Privacy Policy" [ref=e573] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/privacy-policy/
+              - listitem [ref=e574]:
+                - link "Your CA Privacy Rights" [ref=e575] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/ca-privacy-notice/
+              - listitem [ref=e576]:
+                - link "Terms of Use" [ref=e577] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/terms-of-use/
+              - listitem [ref=e578]:
+                - link "Accessibility Statement" [ref=e579] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/our-commitment-to-accessibility/
+              - listitem [ref=e580]:
+                - link "About Ads" [ref=e581] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/privacy-policy/#advertising
+              - listitem [ref=e582]:
+                - link "Affiliate Program" [ref=e583] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/taste-of-home-affiliate-program/
+              - listitem [ref=e584] [cursor=pointer]:
+                - generic [ref=e585]: Cookie Settings
+              - listitem [ref=e586]:
+                - link "License our Content" [ref=e587] [cursor=pointer]:
+                  - /url: https://info.wrightsmedia.com/tatse-of-home-licensing?hs_preview=ArxnVAZx-114681971101
+          - generic [ref=e588]: © 2026 RDA Enthusiast Brands, LLC
+      - generic [ref=e589]:
+        - generic [ref=e590]:
+          - heading "Sign-up for recipes to your inbox" [level=3] [ref=e591]
+          - generic [ref=e592]:
+            - textbox "Add email address" [ref=e593]:
+              - /placeholder: Email Address
+            - button "Sign Up" [ref=e594] [cursor=pointer]
+        - generic [ref=e595]:
+          - generic [ref=e596]: "Taste of Home is America's #1 cooking magazine."
+          - link "Subscribe to Taste of home" [ref=e598] [cursor=pointer]:
+            - /url: https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=275350&int_campaign=toh_20221014_footer&cds_response_key=IB7BDU101&int_source=direct&int_medium=toh.com&int_placement=footer&int_keycode=IB7BDU101
+            - img "Subscribe to Taste of home" [ref=e599]

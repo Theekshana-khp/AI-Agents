@@ -1,0 +1,39 @@
+[     917ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     928ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     938ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     948ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     958ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     968ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     979ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     989ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     999ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1009ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1019ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1029ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1039ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1050ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1060ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1070ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1081ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1091ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1120ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1130ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1140ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[    1159ms] [LOG] ContentPass | Starting Sourcepoint @ https://www.bbcgoodfood.com/recipes/banoffee-pie:357
+[    1919ms] [LOG] Zephr onDOMReady about to fired. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    1968ms] [LOG] Initializing OpenWebSSO component @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2035ms] [LOG] Missing required settings. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2036ms] [LOG] Missing required settings for logout check. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2053ms] [LOG] Hydration complete after 7.30 ms @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2085ms] [LOG] Zephr: Setting up consolidated consent synchronization @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2085ms] [LOG] Zephr: Setting up consolidated consent synchronization @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2383ms] [LOG] Initializing OpenWebSSO component @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2411ms] [LOG] Missing required settings. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    4391ms] [LOG] Messaging without detection successfully executed. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    4391ms] [LOG] SourcePoint | [event] onSPPMObjectReady [undefined] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    4402ms] [LOG] CMP UI shown - waiting for user consent resolution before Zephr starts. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    4402ms] [LOG] CMP UI shown - waiting for user consent resolution before Zephr starts. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    4407ms] [LOG] SourcePoint | [event] onMessageReceiveData [gdpr, Object] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    4408ms] [ERROR] Consentless Inventory | Cannot retreive Consent Data {hasConsented: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    6009ms] [LOG] SourcePoint | [event] onMessageReady [gdpr] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    9158ms] [WARNING] The resource https://www.bbcgoodfood.com/segment/analytics.js/v1/DqXUIAeV8f6valtkjZA8NiwwSbvcv8jR/analytics.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:0

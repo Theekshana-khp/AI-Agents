@@ -1,0 +1,15 @@
+[     519ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bbcgoodfood.com/recipes/3361/banoffeepie:0
+[     532ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/3361/banoffeepie:362
+[     570ms] [LOG] ContentPass | Starting Sourcepoint @ https://www.bbcgoodfood.com/recipes/3361/banoffeepie:357
+[     630ms] [LOG] Initializing OpenWebSSO component @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[     655ms] [LOG] Missing required settings. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[     656ms] [LOG] Missing required settings for logout check. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[     657ms] [LOG] Cannot find config for page--dai on tablet, no config object was found @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[     660ms] [LOG] Hydration complete after 1.00 ms @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[     996ms] [LOG] Initializing OpenWebSSO component @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    1012ms] [LOG] Missing required settings. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    1833ms] [LOG] Messaging without detection successfully executed. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    1833ms] [LOG] SourcePoint | [event] onSPPMObjectReady [undefined] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    1846ms] [LOG] SourcePoint | [event] onMessageReceiveData [gdpr, Object] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    1849ms] [ERROR] Consentless Inventory | Cannot retreive Consent Data {hasConsented: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64
+[    2319ms] [LOG] SourcePoint | [event] onMessageReady [gdpr] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-72ec244cd6b7eba7.js:64

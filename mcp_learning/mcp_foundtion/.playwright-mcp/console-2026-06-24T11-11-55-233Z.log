@@ -1,0 +1,51 @@
+[     480ms] [WARNING] <link rel=preload> has an invalid `href` value @ https://tasty.co/recipe/banoffee-pie:57
+[    3470ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'push')
+    at <anonymous> (https://cdn.permutive.com/a8949f22-f5f0-4207-8dc3-9f4f409f0866-web.js:0:304241)
+    at <anonymous> (https://cdn.permutive.com/a8949f22-f5f0-4207-8dc3-9f4f409f0866-web.js:0:4729)
+    at f (https://cdn.permutive.com/a8949f22-f5f0-4207-8dc3-9f4f409f0866-web.js:0:34607)
+    at d (https://cdn.permutive.com/a8949f22-f5f0-4207-8dc3-9f4f409f0866-web.js:0:4579)
+    at <anonymous> (https://cdn.permutive.com/a8949f22-f5f0-4207-8dc3-9f4f409f0866-web.js:0:8379)
+[    3952ms] [WARNING] [GPT] PubAdsService.clearTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[    4222ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[    4273ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[    4332ms] Uncaught (in promise) Error: TCF2 CMP not found.
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:33:363)
+    at iab (https://micro.rubiconproject.com/prebid/dynamic/13062.js:33:233)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:31:3149)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:31:2825)
+    at w (https://micro.rubiconproject.com/prebid/dynamic/13062.js:31:3322)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:31:3469)
+    at T (https://micro.rubiconproject.com/prebid/dynamic/13062.js:31:573)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:33:2239)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:33:2318)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:77848)
+    at w (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:77834)
+    at y (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:77437)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:28263)
+    at applyConfig (https://micro.rubiconproject.com/prebid/dynamic/13062.js:1:4761)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:9:28747)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:35935)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:36023)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145539)
+    at i (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145266)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145530)
+    at r (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145481)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145543)
+    at i (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145266)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145530)
+    at r (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145481)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145512)
+    at s (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:145516)
+    at Se (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:35821)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:37782)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:27:21011)
+    at <anonymous> (https://micro.rubiconproject.com/prebid/dynamic/13062.js:99:5)
+[    4360ms] [WARNING] Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing. @ https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js:0
+[    4401ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[    4575ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606180101/pubads_impl.js:18
+[    5245ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://tasty.co/recipe/banoffee-pie:0

@@ -1,0 +1,666 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - button "Toggle menu" [ref=e7] [cursor=pointer]
+        - listitem:
+          - generic [ref=e8] [cursor=pointer]:
+            - generic "open Recipes menu" [ref=e9]:
+              - link "Recipes" [ref=e10]:
+                - /url: /recipes/all
+                - paragraph: Recipes
+              - button "Open Recipes menu" [ref=e11]:
+                - img
+            - generic [ref=e12]:
+              - generic [ref=e13]:
+                - link "New recipes" [ref=e15]:
+                  - /url: /recipes/new/
+                  - generic:
+                    - generic:
+                      - img "New recipe! Pasta salad"
+                  - paragraph: New recipes
+                  - generic:
+                    - img
+                - generic [ref=e17]:
+                  - button "open accordion" [ref=e18]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "A selection of fresh ingredients on a plain grey background, including avocado, tomatoes and corn on the cob"
+                      - paragraph: Ingredients
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e20]:
+                  - button "open accordion" [ref=e21]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "A meat dish on a bed of white rice"
+                      - paragraph: Meals & courses
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e23]:
+                  - button "open accordion" [ref=e24]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Black bean burger being dolloped with fresh tomato salsa"
+                      - paragraph: Special diets
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e26]:
+                  - button "open accordion" [ref=e27]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Buddy's chicken fajitas with a bowl of cheese, lettuce and corn salsa, ready to be loaded on!"
+                      - paragraph: Quick & easy
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e29]:
+                  - button "open accordion" [ref=e30]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Veggie pad Thai in a bowl with a fried egg and lettuce, topped with crushed peanuts"
+                      - paragraph: Healthy recipes
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e32]:
+                  - button "open accordion" [ref=e33]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Creamy cauliflower cheese spaghetti topped with crispy, herby breadcrumbs"
+                      - paragraph: Family meal ideas
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e35]:
+                  - button "open accordion" [ref=e36]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Chocolate chip cookies on a cooling rack"
+                      - paragraph: Baking
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e38]:
+                  - button "open accordion" [ref=e39]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "5 Ingredients Mediterranean cookbook surrounded by Mediterranean ingredients including courgette, tomato, prawns and lemon"
+                      - paragraph: Books & TV
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+              - link "Recipes" [ref=e40]:
+                - /url: /recipes/all
+                - generic:
+                  - generic: See all See all
+              - generic [ref=e41]:
+                - link "Mushroom stew" [ref=e43]:
+                  - /url: /recipes/mushroom/mushroom-stew/
+                  - generic:
+                    - button "5 of your 7-a-day" [ref=e44]:
+                      - generic:
+                        - generic: 5 of your 7-a-day 5 of your 7-a-day
+                    - button "Save this item" [ref=e45]:
+                      - img
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Mushroom stew"
+                  - generic:
+                    - paragraph: Mushroom stew
+                    - paragraph:
+                      - generic:
+                        - img
+                        - generic: 30 mins
+                    - generic:
+                      - button "v" [ref=e46]:
+                        - generic:
+                          - generic: v v
+                      - button "vg" [ref=e47]:
+                        - generic:
+                          - generic: vg vg
+                      - button "df" [ref=e48]:
+                        - generic:
+                          - generic: df df
+                - link "Brilliant breakfast waffles" [ref=e50]:
+                  - /url: /recipes/eggs/brilliant-breakfast-waffles/
+                  - generic:
+                    - button "Save this item" [ref=e51]:
+                      - img
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Kids excitedly holding plates of fresh yoghurt and blueberry-topped waffles"
+                  - generic:
+                    - paragraph: Brilliant breakfast waffles
+                    - paragraph:
+                      - generic:
+                        - img
+                        - generic: 10 mins
+                    - button "v" [ref=e52]:
+                      - generic:
+                        - generic: v v
+        - listitem:
+          - generic [ref=e53] [cursor=pointer]:
+            - generic "open Inspiration menu" [ref=e54]:
+              - link "Inspiration" [ref=e55]:
+                - /url: /inspiration
+                - paragraph: Inspiration
+              - button "Open Inspiration menu" [ref=e56]:
+                - img
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e60]:
+                  - button "open accordion" [ref=e61]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie in the kitchen with an air-fryer-cooked dish"
+                      - paragraph: Inspiration
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e63]:
+                  - button "open accordion" [ref=e64]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Homemade elderflower vinegar in a jug and bottle"
+                      - paragraph: How to
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e66]:
+                  - button "open accordion" [ref=e67]:
+                    - generic:
+                      - paragraph: BBQ season
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e69]:
+                  - button "open accordion" [ref=e70]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Budget-friendly pasta salad in a yellow serving dish"
+                      - paragraph: Budget-friendly
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e72]:
+                  - button "open accordion" [ref=e73]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Colourful frozen vegetables in stacks"
+                      - paragraph: Frozen
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e75]:
+                  - button "open accordion" [ref=e76]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Cookbook Club book of the month, Greekish by Georgina Hayden, surrounded by Greek ingredients"
+                      - paragraph: Cookbook Club
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+                - generic [ref=e78]:
+                  - button "open accordion" [ref=e79]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Simple houmous with a side of colourful croudités, including griddled bread, carrots and radish"
+                      - paragraph: Nutrition
+                    - generic:
+                      - generic:
+                        - img
+                  - text: View all
+              - link "Inspiration" [ref=e80]:
+                - /url: /inspiration
+                - generic:
+                  - generic: See all See all
+              - generic [ref=e81]:
+                - 'link "BBQ: Easy Grilling, Big Flavour" [ref=e83]':
+                  - /url: /recipes/books/bbq/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie Oliver holding a chicken burger"
+                  - generic:
+                    - paragraph: "BBQ: Easy Grilling, Big Flavour"
+                    - paragraph: Transform your BBQ cooking with Jamie Oliver’s 90 easy, flavour-packed recipes - perfect for grilling, feasting and outdoor cooking.
+                - link "Jamie's Ultimate BBQ" [ref=e85]:
+                  - /url: /recipes/jamies-ultimate-bbq/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie Oliver sizzling away and cooking gorgeous charred dishes on the BBQ, as seen in his C4 TV series, Jamie's Ultimate BBQ."
+                  - generic:
+                    - paragraph: Jamie's Ultimate BBQ
+                    - paragraph: Fire up the BBQ with Jamie Oliver on Channel 4! Get every gorgeous, easy recipe from the series for maximum flavour. Let’s get cooking!
+        - listitem:
+          - generic [ref=e86] [cursor=pointer]:
+            - generic "open Shop menu" [ref=e87]:
+              - link "Shop" [ref=e88]:
+                - /url: /shop
+                - paragraph: Shop
+              - button "Open Shop menu" [ref=e89]:
+                - img
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - link "Serveware" [ref=e93]:
+                  - /url: /shop/kitchen/serveware/
+                  - generic:
+                    - generic:
+                      - img "Jamie Oliver's Big Love serveware collection"
+                  - paragraph: Serveware
+                  - generic:
+                    - img
+                - link "Books" [ref=e95]:
+                  - /url: /recipes/books/
+                  - generic:
+                    - generic:
+                      - img "Eat Yourself Healthy cookbook"
+                  - paragraph: Books
+                  - generic:
+                    - img
+                - link "Frozen" [ref=e97]:
+                  - /url: /frozen-range/
+                  - generic:
+                    - generic:
+                      - img "Jamie's frozen meal range"
+                  - paragraph: Frozen
+                  - generic:
+                    - img
+                - link "Store cupboard" [ref=e99]:
+                  - /url: /inspiration/store-cupboard-range/
+                  - generic:
+                    - generic:
+                      - img "Jamie's grains pouches"
+                  - paragraph: Store cupboard
+                  - generic:
+                    - img
+                - link "Cookery Classes" [ref=e101]:
+                  - /url: https://jamieolivercookeryschool.giftpro.co.uk/
+                  - generic:
+                    - generic:
+                      - img "The Jamie Oliver Cookery School logo"
+                  - paragraph: Cookery Classes
+                  - generic:
+                    - img
+              - link "Shop" [ref=e102]:
+                - /url: /shop
+                - generic:
+                  - generic: See all See all
+              - generic [ref=e103]:
+                - 'link "BBQ: Easy Grilling, Big Flavour" [ref=e105]':
+                  - /url: /recipes/books/bbq/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie Oliver holding a chicken burger"
+                  - generic:
+                    - paragraph: "BBQ: Easy Grilling, Big Flavour"
+                    - paragraph: Transform your BBQ cooking with Jamie Oliver’s 90 easy, flavour-packed recipes - perfect for grilling, feasting and outdoor cooking.
+                - link "Eat Yourself Healthy" [ref=e107]:
+                  - /url: /recipes/books/eat-yourself-healthy/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie's latest cookbook, Eat Yourself Healthy"
+                  - generic:
+                    - paragraph: Eat Yourself Healthy
+                    - paragraph: Buy Jamie's latest cookbook now! Embrace the endless possibilities of how to eat well.
+        - listitem:
+          - generic [ref=e108] [cursor=pointer]:
+            - generic "open Jamie's World menu" [ref=e109]:
+              - link "Jamie's World" [ref=e110]:
+                - /url: /jamies-world
+                - paragraph: Jamie's World
+              - button "Open Jamie's World menu" [ref=e111]:
+                - img
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - link "About Jamie Oliver" [ref=e115]:
+                  - /url: /jamies-world/about-jamie/
+                  - generic:
+                    - generic:
+                      - img "Jamie holding a plate of tomatoes"
+                  - paragraph: About Jamie Oliver
+                  - generic:
+                    - img
+                - link "Jamie's Good School Food Awards" [ref=e117]:
+                  - /url: https://schoolfoodawards.jamieoliver.com/
+                  - generic:
+                    - generic:
+                      - img "Jamie holding a Good School Food Award cup"
+                  - paragraph: Jamie's Good School Food Awards
+                  - generic:
+                    - img
+                - link "Jamie's Dyslexia Revolution" [ref=e119]:
+                  - /url: /jamies-world/jamies-dyslexia-revolution/
+                  - generic:
+                    - generic:
+                      - img "Jamie sat at a desk during his dyslexia campaign"
+                  - paragraph: Jamie's Dyslexia Revolution
+                  - generic:
+                    - img
+                - link "Jamie Oliver Cookery School" [ref=e121]:
+                  - /url: https://jamieolivercookeryschool.com/
+                  - generic:
+                    - generic:
+                      - img "Jamie Oliver Cookery School logo"
+                  - paragraph: Jamie Oliver Cookery School
+                  - generic:
+                    - img
+                - link "Jamie Oliver Catherine St" [ref=e123]:
+                  - /url: https://www.jamieolivercatherinest.com/
+                  - generic:
+                    - generic:
+                      - img "Jamie Oliver Catherine St logo"
+                  - paragraph: Jamie Oliver Catherine St
+                  - generic:
+                    - img
+                - link "Jamie's Italian" [ref=e125]:
+                  - /url: https://jamiesitalian.co.uk/
+                  - generic:
+                    - generic:
+                      - img "Jamie's Italian logo"
+                  - paragraph: Jamie's Italian
+                  - generic:
+                    - img
+                - link "10 Skills Food Education" [ref=e127]:
+                  - /url: /jamies-world/10-skills-programme/
+                  - generic:
+                    - generic:
+                      - img "Ministry of Food cooking class"
+                  - paragraph: 10 Skills Food Education
+                  - generic:
+                    - img
+                - link "Ministry of Food" [ref=e129]:
+                  - /url: /jamies-world/ministry-of-food/
+                  - generic:
+                    - generic:
+                      - img "Ministry of Food logo"
+                  - paragraph: Ministry of Food
+                  - generic:
+                    - img
+                - link "The Jamie Oliver Group" [ref=e131]:
+                  - /url: https://www.jamieolivergroup.com/
+                  - generic:
+                    - generic:
+                      - img "The Jamie Oliver Group logo"
+                  - paragraph: The Jamie Oliver Group
+                  - generic:
+                    - img
+              - link "Jamie's World" [ref=e132]:
+                - /url: /jamies-world
+                - generic:
+                  - generic: See all See all
+              - generic [ref=e133]:
+                - link "Eat Yourself Healthy" [ref=e135]:
+                  - /url: /recipes/books/eat-yourself-healthy/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie's latest cookbook, Eat Yourself Healthy"
+                  - generic:
+                    - paragraph: Eat Yourself Healthy
+                    - paragraph: Buy Jamie's latest cookbook now! Embrace the endless possibilities of how to eat well.
+                - link "Jamie's Dyslexia Revolution" [ref=e137]:
+                  - /url: /jamies-world/jamies-dyslexia-revolution/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Jamie outside parliament beside the Thames, during his campaign for dyslexia"
+                  - generic:
+                    - paragraph: Jamie's Dyslexia Revolution
+                    - paragraph: Undiagnosed, Jamie Oliver struggled in school. Join his Dyslexia Revolution to ensure every child gets the support they need.
+        - listitem [ref=e138]:
+          - button "Recipes" [ref=e140] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img "Asparagus carbonara"
+            - paragraph: Recipes
+            - generic:
+              - img
+          - button "Inspiration" [ref=e142] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img "Green pasta bake on a plate"
+            - paragraph: Inspiration
+            - generic:
+              - img
+          - button "Shop" [ref=e144] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img "Jamie with his collection of Big Love serveware"
+            - paragraph: Shop
+            - generic:
+              - img
+          - button "Jamie's World" [ref=e146] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img "Jamie leaning on the counter smiling at the camera"
+            - paragraph: Jamie's World
+            - generic:
+              - img
+          - link "Inside one of Jamie Oliver's restaurants Restaurants" [ref=e148] [cursor=pointer]:
+            - /url: /jamies-world/restaurants/
+            - generic:
+              - generic:
+                - img "Inside one of Jamie Oliver's restaurants"
+            - paragraph: Restaurants
+            - generic:
+              - img
+          - generic [ref=e149]:
+            - link "Eat Yourself Healthy" [ref=e151] [cursor=pointer]:
+              - /url: /recipes/books/eat-yourself-healthy/
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Jamie's latest cookbook, Eat Yourself Healthy"
+              - generic:
+                - paragraph: Eat Yourself Healthy
+                - paragraph: Buy Jamie's latest cookbook now! Embrace the endless possibilities of how to eat well.
+            - link "Jamie's Ultimate BBQ" [ref=e153] [cursor=pointer]:
+              - /url: /recipes/jamies-ultimate-bbq/
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img "Jamie Oliver sizzling away and cooking gorgeous charred dishes on the BBQ, as seen in his C4 TV series, Jamie's Ultimate BBQ."
+              - generic:
+                - paragraph: Jamie's Ultimate BBQ
+                - paragraph: Fire up the BBQ with Jamie Oliver on Channel 4! Get every gorgeous, easy recipe from the series for maximum flavour. Let’s get cooking!
+      - link "home link" [ref=e154] [cursor=pointer]:
+        - /url: /
+        - img
+      - button "open login panel" [ref=e156] [cursor=pointer]:
+        - generic:
+          - img
+    - search [ref=e160]:
+      - button "Open search menu" [ref=e161] [cursor=pointer]:
+        - img
+      - button "Close search menu":
+        - img
+      - searchbox "Search Term" [ref=e162] [cursor=pointer]
+      - button "Search":
+        - img
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading "Sign In or Register" [level=3]
+              - button "Close authenticaiton menu" [ref=e163] [cursor=pointer]:
+                - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - textbox "Email":
+                      - /placeholder: " "
+                    - generic: Email
+                - text: Forgotten your password?
+                - button "Continue with Email Continue with Email" [ref=e164] [cursor=pointer]:
+                  - generic:
+                    - generic: Continue with Email Continue with Email
+                    - text: Verifying Email
+              - text: back to sign in
+              - generic:
+                - generic:
+                  - generic:
+                    - separator
+                    - generic: or
+                    - separator
+                  - button "Continue with Google" [ref=e165] [cursor=pointer]:
+                    - img
+                    - generic: Continue with Google
+                  - button "Continue with Apple" [ref=e166] [cursor=pointer]:
+                    - img
+                    - generic: Continue with Apple
+                  - button "Continue with Facebook" [ref=e167] [cursor=pointer]:
+                    - img
+                    - generic: Continue with Facebook
+                  - paragraph:
+                    - text: By continuing you agree to our
+                    - link "Terms of Use" [ref=e168] [cursor=pointer]:
+                      - /url: /terms/
+                    - text: . Learn how we collect, use, and share your data in our
+                    - link "Privacy Policy" [ref=e169] [cursor=pointer]:
+                      - /url: /privacy-policy/
+                    - text: .
+          - generic:
+            - button [ref=e170] [cursor=pointer]:
+              - img
+            - paragraph
+  - main [ref=e172]:
+    - generic [ref=e174]:
+      - list
+    - link "Explore Recipes" [ref=e176] [cursor=pointer]:
+      - /url: /recipes/all
+      - generic:
+        - generic:
+          - heading "404" [level=2]
+          - heading "Uh-oh. We can't find the page you're looking for" [level=1]
+          - paragraph: Try searching our site or explore more recipes below
+          - button "Explore Recipes" [ref=e177]:
+            - generic:
+              - generic: Explore Recipes Explore Recipes
+    - link "Explore more" [ref=e179] [cursor=pointer]:
+      - /url: /inspiration
+      - generic:
+        - img "Jamie leaning on the counter and smiling at the camera with a no-bake fig tart"
+      - generic:
+        - generic:
+          - paragraph: Inspiration
+          - paragraph: Recipe ideas & cooking tips
+          - button "Explore more" [ref=e180]:
+            - generic:
+              - generic: Explore more Explore more
+  - contentinfo [ref=e181]:
+    - generic [ref=e182]:
+      - img "Jamie Oliver holding a plate of salad and smiling at the camera" [ref=e185]
+      - generic [ref=e186]:
+        - paragraph [ref=e187]: Hungry for more?
+        - paragraph [ref=e188]: Enter your email to receive news and exclusive offers from Jamie Oliver Limited about Jamie's businesses, including books, TV shows, restaurants, products, commercial partners and campaigning activities. By signing up, you agree to our Terms of Use. Learn how we collect, use and share your data in our Privacy Policy.
+        - generic [ref=e191]:
+          - textbox "Email Address" [ref=e192]
+          - text: Sign Up
+          - button "Submit Sign Up" [ref=e193] [cursor=pointer]:
+            - generic:
+              - img
+        - generic [ref=e194]:
+          - link "facebook":
+            - /url: https://www.facebook.com/jamieoliver
+            - img
+          - link "instagram":
+            - /url: https://instagram.com/jamieoliver/
+            - img
+          - link "pinterest":
+            - /url: https://www.pinterest.com/jamieoliver/
+            - img
+          - link "tiktok":
+            - /url: https://www.tiktok.com/@jamieoliver
+            - img
+          - link "youtube":
+            - /url: https://www.youtube.com/@JamieOliver
+            - img
+    - generic [ref=e195]:
+      - button "open accordion" [ref=e197] [cursor=pointer]:
+        - paragraph: Recipes
+        - generic:
+          - generic:
+            - img
+      - button "open accordion" [ref=e199] [cursor=pointer]:
+        - paragraph: Inspiration
+        - generic:
+          - generic:
+            - img
+      - button "open accordion" [ref=e201] [cursor=pointer]:
+        - paragraph: Jamie's World
+        - generic:
+          - generic:
+            - img
+      - button "open accordion" [ref=e203] [cursor=pointer]:
+        - paragraph: Support
+        - generic:
+          - generic:
+            - img
+    - list [ref=e204]:
+      - listitem [ref=e205]:
+        - link "Terms of use" [ref=e206] [cursor=pointer]:
+          - /url: /terms/
+      - listitem [ref=e207]:
+        - link "Policies" [ref=e208] [cursor=pointer]:
+          - /url: /privacy-policy/
+      - listitem [ref=e209]:
+        - link "Sitemap" [ref=e210] [cursor=pointer]:
+          - /url: /sitemap
+      - listitem [ref=e211]:
+        - button "trigger cookies policy" [ref=e212] [cursor=pointer]: Cookies
+    - generic [ref=e213]:
+      - img [ref=e214]
+      - img [ref=e215]
+      - img [ref=e216]
+      - img [ref=e217]
+      - img [ref=e218]
+    - paragraph [ref=e219]: © 2026 Jamie Oliver Enterprises Limited
