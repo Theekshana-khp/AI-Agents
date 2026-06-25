@@ -2,6 +2,7 @@ from pydantic import BaseModel
 import json
 from dotenv import load_dotenv
 from datetime import datetime
+from market import get_share_price
 from database import write_account, read_account, write_log
 
 load_dotenv(override=True)
@@ -74,6 +75,65 @@ class Account(BaseModel):
         print(f"Withdrew ${amount}. New balance: ${self.balance}")
         self.save()
 
+    def buy_shares(self, symbol: str, quantity: int, rationale: str) -> str:
+        """ Buy shares of a stock if sufficient funds are available. """
+        price = get_share_price(symbol)
+        buy_price = price * (1 + SPREAD)
+        total_cost = buy_price * quantity
+
+        if total_cost > self.balance:
+            raise ValueError("Insufficient funds to buy shares.")
+        elif price == 0:
+            raise ValueError(f"Unrecognized symbol {symbol}")
+
+        # Update holdings
+        self.holdings[symbol] = self.holdings.get(symbol, 0) + quantity
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # Record transaction
+        transaction = Transaction(symbol=symbol, quantity=quantity, price=buy_price, timestamp=timestamp,
+                                  rationale=rationale)
+        self.transactions.append(transaction)
+
+        # Update balance
+        self.balance -= total_cost
+        self.save()
+        write_log(self.name, "account", f"Bought {quantity} of {symbol}")
+        return "Completed. Latest details:\n" + self.report()
+
+    def sell_shares(self, symbol: str, quantity: int, rationale: str) -> str:
+        """ Sell shares of a stock if the user has enough shares. """
+        if self.holdings.get(symbol, 0) < quantity:
+            raise ValueError(f"Cannot sell {quantity} shares of {symbol}. Not enough shares held.")
+
+        price = get_share_price(symbol)
+        sell_price = price * (1 - SPREAD)
+        total_proceeds = sell_price * quantity
+
+        # Update holdings
+        self.holdings[symbol] -= quantity
+
+        # If shares are completely sold, remove from holdings
+        if self.holdings[symbol] == 0:
+            del self.holdings[symbol]
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # Record transaction
+        transaction = Transaction(symbol=symbol, quantity=-quantity, price=sell_price, timestamp=timestamp,
+                                  rationale=rationale)  # negative quantity for sell
+        self.transactions.append(transaction)
+
+        # Update balance
+        self.balance += total_proceeds
+        self.save()
+        write_log(self.name, "account", f"Sold {quantity} of {symbol}")
+        return "Completed. Latest details:\n" + self.report()
+
+    def calculate_portfolio_value(self):
+        """ Calculate the total value of the user's portfolio. """
+        total_value = self.balance
+        for symbol, quantity in self.holdings.items():
+            total_value += get_share_price(symbol) * quantity
+        return total_value
+
     def calculate_profit_loss(self, portfolio_value: float):
         """ Calculate profit or loss from the initial spend. """
         initial_spend = sum(transaction.total() for transaction in self.transactions)
@@ -118,10 +178,17 @@ class Account(BaseModel):
 
 # Example of usage:
 if __name__ == "__main__":
-    account = Account("John Doe")
+    account = Account(
+        name="Pasindu Theekshana",
+        balance=10000.0,
+        strategy="",
+        holdings={},
+        transactions=[],
+        portfolio_value_time_series=[]
+    )
     account.deposit(1000)
-    account.buy_shares("AAPL", 5)
-    account.sell_shares("AAPL", 2)
+    account.buy_shares("AAPL", 5 ,"Strong earnings report and long-term growth potential")
+    account.sell_shares("AAPL", 2 , "Strong earnings report and long-term growth potential")
     print(f"Current Holdings: {account.get_holdings()}")
     print(f"Total Portfolio Value: {account.calculate_portfolio_value()}")
     print(f"Profit/Loss: {account.get_profit_loss()}")
