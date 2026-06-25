@@ -29,6 +29,23 @@ async def main():
             result = await Runner.run(agent, request)
         print(result.final_output)
 
+    from accounts_client import get_accounts_tools_openai, read_accounts_resource, list_accounts_tools
+
+    mcp_tools = await list_accounts_tools()
+    print(mcp_tools)
+    openai_tools = await get_accounts_tools_openai()
+    print(openai_tools)
+
+    request = "My name is Pasindu Theekshana and my account is under the name Pasindu Theekshana. What's my balance?"
+
+    with trace("account_mcp_client"):
+        agent = Agent(name="account_manager", instructions=instructions, model=model, tools=openai_tools)
+        result = await Runner.run(agent, request)
+        print(result.final_output)
+
+    context = await read_accounts_resource("Pasindu Theekshana")
+    print(context)
+
 if __name__ == "__main__":
     asyncio.run(main())
 
