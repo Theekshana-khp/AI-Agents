@@ -183,7 +183,7 @@ research_task:
   agent: researcher
   # Optional:
   # tools: [search_tool]
-  # output_file: output/research.md
+  # output_file: output2/research.md
   # markdown: true
   # async_execution: false
 
@@ -193,7 +193,7 @@ writing_task:
   expected_output: >
     A polished 4-paragraph article formatted in markdown.
   agent: writer
-  output_file: output/article.md
+  output_file: output2/article.md
 ```
 
 ## Crew Class Pattern
@@ -343,13 +343,13 @@ researcher = Agent(
     verbose=True,
 )
 
-# Unstructured output
+# Unstructured output2
 result = researcher.kickoff("What are the latest LLM developments?")
 print(result.raw)           # str
 print(result.agent_role)    # "AI Researcher"
 print(result.usage_metrics) # token usage
 
-# Structured output with response_format
+# Structured output2 with response_format
 result = researcher.kickoff(
     "Summarize latest AI developments",
     response_format=ResearchFindings,
@@ -421,7 +421,7 @@ Environment variable default: set `OPENAI_MODEL_NAME=gpt-4o` or `MODEL=gpt-4o` i
 def analysis_task(self) -> Task:
     return Task(
         config=self.tasks_config["analysis_task"],  # type: ignore[index]
-        context=[self.research_task()],  # Gets output from research_task
+        context=[self.research_task()],  # Gets output2 from research_task
     )
 ```
 
@@ -481,9 +481,9 @@ Crew(
 ```python
 # Synchronous
 result = crew.kickoff(inputs={"topic": "AI"})
-print(result.raw)              # String output
-print(result.pydantic)         # Structured output (if configured)
-print(result.json_dict)        # Dict output
+print(result.raw)              # String output2
+print(result.pydantic)         # Structured output2 (if configured)
+print(result.json_dict)        # Dict output2
 print(result.token_usage)      # Token metrics
 print(result.tasks_output)     # List[TaskOutput]
 
@@ -493,7 +493,7 @@ result = await crew.akickoff(inputs={"topic": "AI"})
 # Batch execution
 results = crew.kickoff_for_each(inputs=[{"topic": "AI"}, {"topic": "ML"}])
 
-# Streaming output (v1.8.0+)
+# Streaming output2 (v1.8.0+)
 crew = Crew(agents=..., tasks=..., stream=True)
 streaming = crew.kickoff(inputs={"topic": "AI"})
 for chunk in streaming:

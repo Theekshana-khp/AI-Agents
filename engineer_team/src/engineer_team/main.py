@@ -9,7 +9,7 @@ from engineer_team.src.engineer_team.crew import EngineeringTeam
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
-os.makedirs('output', exist_ok=True)
+os.makedirs('output2', exist_ok=True)
 
 requirements = """
 A simple account management system for a trading simulation platform.

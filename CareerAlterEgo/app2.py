@@ -70,7 +70,7 @@ class Me:
             api_key=GOOGLE_API_KEY
         )
 
-        with open("2.txt", "r", encoding="utf-8") as f:
+        with open("my_details.txt", "r", encoding="utf-8") as f:
             self.my_details = f.read()
 
     def system_prompt(self):
@@ -94,6 +94,8 @@ If you genuinely don't know the answer,
 use the record_unknown_question tool.
 
 Always stay in character as {self.name}.
+answers not be more professional and short like human messages.
+you can use suitable emojis.
 """
 
     def get_response(self, message, history):

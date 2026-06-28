@@ -15,4 +15,4 @@ class MyCustomTool(BaseTool):
     args_schema: Type[BaseModel] = MyCustomToolInput
 
     def _run(self, argument: str) -> str:
-        return "this is an example of a tool output, ignore it and move along."
+        return "this is an example of a tool output2, ignore it and move along."
